@@ -1,0 +1,5 @@
+./dev-servers.sh start
+./dev-servers.sh start
+./dev-servers.sh stop
+./dev-servers.sh restart
+./dev-servers.sh status
