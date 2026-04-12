@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import "./App.css";
 
 const pageLinks = [
@@ -30,41 +30,29 @@ function HomePage() {
   );
 }
 
-type PlaceholderPageProps = {
-  title: string;
-};
-
-function PlaceholderPage({ title }: PlaceholderPageProps) {
+function RootLayout() {
   return (
-    <main className="page-shell placeholder-shell">
-      <Link to="/" className="back-link">
-        Back To Home
-      </Link>
-      <section className="placeholder-panel" aria-labelledby="page-title">
-        <p className="eyebrow">Spanish ITS</p>
-        <h1 id="page-title" className="placeholder-title">
-          {title}
-        </h1>
-      </section>
-    </main>
+    <>
+      <header className="app-header">
+        <Link to="/" className="brand-link">
+          Spanish ITS
+        </Link>
+        <nav className="top-nav" aria-label="Primary">
+          <NavLink to="/learn" className="top-nav-link">
+            Learn
+          </NavLink>
+          <NavLink to="/practice" className="top-nav-link">
+            Practice
+          </NavLink>
+          <NavLink to="/dashboard" className="top-nav-link">
+            Dashboard
+          </NavLink>
+        </nav>
+      </header>
+      <Outlet />
+    </>
   );
 }
 
-export function LearnPage() {
-  return <PlaceholderPage title="Learn" />;
-}
-
-export function PracticePage() {
-  return <PlaceholderPage title="Practice" />;
-}
-
-export function DashboardPage() {
-  return <PlaceholderPage title="Dashboard" />;
-}
-
-function App() {
-  return <Outlet />;
-}
-
 export { HomePage };
-export default App;
+export default RootLayout;
