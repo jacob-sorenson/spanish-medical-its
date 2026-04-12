@@ -91,3 +91,93 @@ You do not need many at first. Start with maybe 2 or 3:
 	•	English → Spanish typed recall
 	•	multiple choice
 	•	identify official term vs alternate term
+
+
+
+	spanish-its/
+├── client/
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── dashboardApi.ts
+│   │   │   ├── kcApi.ts
+│   │   │   ├── practiceApi.ts
+│   │   │   └── tutorApi.ts
+│   │   ├── components/
+│   │   │   ├── TermCard.tsx
+│   │   │   ├── PracticeCard.tsx
+│   │   │   ├── FeedbackPanel.tsx
+│   │   │   ├── MasteryTable.tsx
+│   │   │   └── CategorySummary.tsx
+│   │   ├── pages/
+│   │   │   ├── LearnPage.tsx
+│   │   │   ├── PracticePage.tsx
+│   │   │   └── DashboardPage.tsx
+│   │   ├── hooks/
+│   │   │   ├── useDashboard.ts
+│   │   │   ├── usePracticeSession.ts
+│   │   │   └── useKCs.ts
+│   │   ├── utils/
+│   │   │   └── formatMastery.ts
+│   │   ├── types/
+│   │   │   └── api.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── router.tsx
+│   └── package.json
+│
+├── server/
+│   ├── src/
+│   │   ├── routes/
+│   │   │   ├── kcRoutes.ts
+│   │   │   ├── practiceRoutes.ts
+│   │   │   ├── dashboardRoutes.ts
+│   │   │   └── tutorRoutes.ts
+│   │   ├── controllers/
+│   │   │   ├── kcController.ts
+│   │   │   ├── practiceController.ts
+│   │   │   ├── dashboardController.ts
+│   │   │   └── tutorController.ts
+│   │   ├── services/
+│   │   │   ├── kcService.ts
+│   │   │   ├── practiceService.ts
+│   │   │   ├── scoringService.ts
+│   │   │   ├── bktService.ts
+│   │   │   ├── adaptiveSelectorService.ts
+│   │   │   ├── dashboardService.ts
+│   │   │   └── openaiTutorService.ts
+│   │   ├── data/
+│   │   │   ├── seed/
+│   │   │   │   ├── knowledgeComponents.json
+│   │   │   │   ├── bktParameters.json
+│   │   │   │   └── practiceItems.json
+│   │   │   └── learner/
+│   │   │       ├── learnerState.json
+│   │   │       └── attemptHistory.json
+│   │   ├── models/
+│   │   │   └── persistenceModels.ts
+│   │   ├── utils/
+│   │   │   ├── normalizeAnswer.ts
+│   │   │   └── buildChoices.ts
+│   │   ├── config/
+│   │   │   └── env.ts
+│   │   ├── app.ts
+│   │   └── server.ts
+│   └── package.json
+│
+├── shared/
+│   ├── types/
+│   │   ├── kc.ts
+│   │   ├── bkt.ts
+│   │   ├── practice.ts
+│   │   ├── dashboard.ts
+│   │   └── api.ts
+│   └── constants/
+│       └── masteryBands.ts
+│
+├── docs/
+│   ├── architecture.md
+│   ├── adaptive-loop.md
+│   └── glossary-notes.md
+│
+├── TODO.md
+└── README.md
