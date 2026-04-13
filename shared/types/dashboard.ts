@@ -7,7 +7,7 @@ export interface DashboardKCRow {
   system: MedicalSystem;
   masteryProbability: number;
   opportunities: number;
-  lastUpdatedAt: string | null;
+  lastPracticeAt: string | null;
   band: "weak" | "developing" | "strong";
 }
 

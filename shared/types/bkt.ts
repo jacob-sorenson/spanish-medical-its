@@ -13,6 +13,10 @@ export interface LearnerKCState {
   correctCount: number;
   incorrectCount: number;
   lastPracticeAt: string | null;
+  hasViewedLearn: boolean;
+  firstViewedAt: string | null;
+  lastViewedAt: string | null;
+  learnViewCount: number;
 }
 
 export interface AttemptRecord {
