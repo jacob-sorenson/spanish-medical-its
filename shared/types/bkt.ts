@@ -14,3 +14,16 @@ export interface LearnerKCState {
   incorrectCount: number;
   lastPracticeAt: string | null;
 }
+
+export interface AttemptRecord {
+  id: string;
+  kcId: string;
+  practiceItemId: string;
+  userAnswer: string;
+  normalizedAnswer: string;
+  outcome: "correct" | "accepted_alternate" | "incorrect";
+  countedAsCorrectForBKT: boolean;
+  masteryBefore: number;
+  masteryAfter: number;
+  submittedAt: string;
+}

@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import "./App.css";
 
@@ -6,6 +7,23 @@ const pageLinks = [
   { label: "Practice", to: "/practice", className: "nav-card practice-card" },
   { label: "Dashboard", to: "/dashboard", className: "nav-card dashboard-card" },
 ];
+
+const THEME_STORAGE_KEY = "spanish-its-theme";
+
+const getInitialTheme = () => {
+  if (typeof window === "undefined") {
+    return "light";
+  }
+
+  const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+  if (savedTheme === "dark" || savedTheme === "light") {
+    return savedTheme;
+  }
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
 
 function HomePage() {
   return (
@@ -31,6 +49,13 @@ function HomePage() {
 }
 
 function RootLayout() {
+  const [theme, setTheme] = useState<"light" | "dark">(getInitialTheme);
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+  }, [theme]);
+
   return (
     <>
       <header className="app-header">
@@ -47,6 +72,19 @@ function RootLayout() {
           <NavLink to="/dashboard" className="top-nav-link">
             Dashboard
           </NavLink>
+          <button
+            type="button"
+            className="theme-toggle"
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+            aria-pressed={theme === "dark"}
+            onClick={() => {
+              setTheme((currentTheme) =>
+                currentTheme === "dark" ? "light" : "dark",
+              );
+            }}
+          >
+            {theme === "dark" ? "Light Mode" : "Dark Mode"}
+          </button>
         </nav>
       </header>
       <Outlet />

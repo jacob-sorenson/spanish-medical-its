@@ -1,0 +1,222 @@
+
+
+[
+  {
+    "id": "item_cardiovascular_anemia_typed_1",
+    "kcId": "kc_cardiovascular_anemia",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Anemia'?",
+    "correctAnswer": "Anemia",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Anemia'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_anemia_mcq_1",
+    "kcId": "kc_cardiovascular_anemia",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Anemia'?",
+    "correctAnswer": "Anemia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Anemia",
+      "Angina",
+      "Aneurisma",
+      "Hipotermia"
+    ],
+    "explanation": "The correct Spanish medical term is 'Anemia'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_anemia_mcq_2",
+    "kcId": "kc_cardiovascular_anemia",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Anemia' mean in English?",
+    "correctAnswer": "Anemia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Anemia",
+      "Angina",
+      "Aneurysm",
+      "Blood test"
+    ],
+    "explanation": "'Anemia' means 'Anemia' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_aneurysm_typed_1",
+    "kcId": "kc_cardiovascular_aneurysm",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Aneurysm'?",
+    "correctAnswer": "Aneurisma",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Aneurisma'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_aneurysm_mcq_1",
+    "kcId": "kc_cardiovascular_aneurysm",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Aneurysm'?",
+    "correctAnswer": "Aneurisma",
+    "acceptableAnswers": [],
+    "choices": [
+      "Aneurisma",
+      "Anemia",
+      "Angina",
+      "Vejiga"
+    ],
+    "explanation": "The correct Spanish medical term is 'Aneurisma'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_aneurysm_mcq_2",
+    "kcId": "kc_cardiovascular_aneurysm",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Aneurisma' mean in English?",
+    "correctAnswer": "Aneurysm",
+    "acceptableAnswers": [],
+    "choices": [
+      "Aneurysm",
+      "Anemia",
+      "Angina",
+      "Bladder"
+    ],
+    "explanation": "'Aneurisma' means 'Aneurysm' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_blood_vessels_typed_1",
+    "kcId": "kc_skin_blood_vessels",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Blood vessels'?",
+    "correctAnswer": "Vasos sanguíneos",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Vasos sanguíneos'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_blood_vessels_mcq_1",
+    "kcId": "kc_skin_blood_vessels",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Blood vessels'?",
+    "correctAnswer": "Vasos sanguíneos",
+    "acceptableAnswers": [],
+    "choices": [
+      "Vasos sanguíneos",
+      "Vejiga",
+      "Aneurisma",
+      "Anemia"
+    ],
+    "explanation": "The correct Spanish medical term is 'Vasos sanguíneos'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_blood_vessels_mcq_2",
+    "kcId": "kc_skin_blood_vessels",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Vasos sanguíneos' mean in English?",
+    "correctAnswer": "Blood vessels",
+    "acceptableAnswers": [],
+    "choices": [
+      "Blood vessels",
+      "Bladder",
+      "Aneurysm",
+      "Anemia"
+    ],
+    "explanation": "'Vasos sanguíneos' means 'Blood vessels' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_blood_vessels_typed_1",
+    "kcId": "kc_cardiovascular_blood_vessels",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Blood vessels'?",
+    "correctAnswer": "Vasos sanguíneos",
+    "acceptableAnswers": [
+      "Arterias",
+      "Venas"
+    ],
+    "explanation": "The official Spanish medical term is 'Vasos sanguíneos'. 'Arterias' and 'Venas' are related specific terms, not the main general term.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_blood_vessels_mcq_1",
+    "kcId": "kc_cardiovascular_blood_vessels",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct general Spanish medical term for 'Blood vessels'?",
+    "correctAnswer": "Vasos sanguíneos",
+    "acceptableAnswers": [
+      "Arterias",
+      "Venas"
+    ],
+    "choices": [
+      "Vasos sanguíneos",
+      "Arterias",
+      "Venas",
+      "Vejiga"
+    ],
+    "explanation": "'Vasos sanguíneos' is the general term. 'Arterias' and 'Venas' are more specific related terms.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_blood_vessels_official_1",
+    "kcId": "kc_cardiovascular_blood_vessels",
+    "itemType": "official_vs_alternate",
+    "prompt": "Which is the official general Spanish medical term for 'Blood vessels'?",
+    "correctAnswer": "Vasos sanguíneos",
+    "acceptableAnswers": [
+      "Arterias",
+      "Venas"
+    ],
+    "choices": [
+      "Vasos sanguíneos",
+      "Arterias",
+      "Venas"
+    ],
+    "explanation": "Use 'Vasos sanguíneos' for the general term. 'Arterias' and 'Venas' name specific types of blood vessels.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_bladder_typed_1",
+    "kcId": "kc_urinary_bladder",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Bladder'?",
+    "correctAnswer": "Vejiga",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Vejiga'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_bladder_mcq_1",
+    "kcId": "kc_urinary_bladder",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Bladder'?",
+    "correctAnswer": "Vejiga",
+    "acceptableAnswers": [],
+    "choices": [
+      "Vejiga",
+      "Uretra",
+      "Uréter",
+      "Riñón"
+    ],
+    "explanation": "The correct Spanish medical term is 'Vejiga'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_bladder_mcq_2",
+    "kcId": "kc_urinary_bladder",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Vejiga' mean in English?",
+    "correctAnswer": "Bladder",
+    "acceptableAnswers": [],
+    "choices": [
+      "Bladder",
+      "Urethra",
+      "Ureter",
+      "Kidney"
+    ],
+    "explanation": "'Vejiga' means 'Bladder' in English.",
+    "active": true
+  }
+]

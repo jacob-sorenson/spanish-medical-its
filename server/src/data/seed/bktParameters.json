@@ -1,0 +1,2221 @@
+[
+    {
+        "kcId": "kc_cardiovascular_anemia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_aneurysm",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_angina",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_aorta",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_arrythmia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_blood_test",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_blood_vessels",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_bone_marrow",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_capillaries",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_cholesterol",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_congenital_heart_defect",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_congestive_heart_failure",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_diastolic_heart_pressure",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_echocardiogram_echo",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_electrocardiogram_ekg",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_exercise_tolerance_test",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_heart_attack",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_hypertension",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_hypothermia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_inferior_vena_cava",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_left_auricle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_left_ventricle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_lymph_nodes",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_myocardial_infarction",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_pulmonary_artery",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_pulmonary_veins",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_sickle_cell_anemia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_spleen",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_systolic_pressure",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_valves",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_cardiovascular_varicose_veins",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_acid_reflux",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_appendicitis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_appendix",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_bowel",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_bowel_movement",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_cirrhosis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_colonoscopy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_constipation",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_diarrhea",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_endoscopy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_epiglottis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_esophagus",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_gallbladder",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_gallstones",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_gastroenteritis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_gum_disease",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_gums",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_heartburn",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_hemorrhoids",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_hiatal_hernia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_irritable_bowel_syndrome",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_large_intestine",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_pancreas",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_peptic_ulcer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_rectum",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_saliva_glands",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_sigmoid_colon",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_stomach",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_trachea",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_digestive_upper_gi_series",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_adrenal_glands",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_autoimmune",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_congenital_hypothyroidism",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_cushing_s_syndrome",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_decreased_sweating",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_depression",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_diabetes",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_dry_skin",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_endocrinologist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_enlarged_thyroid",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_fatigue_muscle_weakness",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_goiter",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_hand_tremors",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_heat_intolerance",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_heavy_menstrual_periods",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_hormone_imbalance",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_hormones",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_hyperthyroidism",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_metabolism",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_mood_swings",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_ovaries",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_pancreas",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_parathyroid_gland",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_pituitary_glad",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_rapid_irregular_heartbeat",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_slowed_heart_rate",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_thinning_hair",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_thyroid_gland",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_trouble_sleeping",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_ultrasound",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_endocrine_weight_loss",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_arthritis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_back_pain",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_bone_marrow",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_bony_spurs",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_carpal_tunnel_syndrome",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_cartilage",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_cartilage_pad",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_coccyx",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_compound_fracture",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_ct_scan",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_fibromyalgia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_fracture",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_hernia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_hip_bone_pelvis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_joint",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_kneecap_patella",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_knobby_joints",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_ligament",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_limited_mobility",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_mri",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_muscle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_muscle_fiber",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_osteoporosis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_podiatrist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_rheumatologist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_simple_or_complex_fracture",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_skull",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_strain",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_tendon",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_vertebra",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_musculoskeletal_x_ray",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_alzheimer_s_disease",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_aqueous_humor",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_blurry_vision",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_cataract",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_central_nervous_system",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_cerebral_palsy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_cochlea",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_conjunctivitis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_dementia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_double_vision",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_ear_drum",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_electroencephalogram_eeg",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_epilepsy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_eustachian_tube",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_glare",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_glaucoma",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_inner_ear",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_iris",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_lens_muscle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_loss_of_balance_coordination",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_middle_ear",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_motor_nerves",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_nerve_cells",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_nerve_impulses",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_ophthalmologist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_optic_nerve",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_outer_ear",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_spinal_cord_injury",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_lumbar_puncture_spinal_tap",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_stroke",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_nervous_trembling_hands",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_acute_bronchitis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_alveoli",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_asthma",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_bronchi",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_bronchitis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_bronchoscopy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_chest_tightness",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_chronic_obstructive_pulmonary_disorder_copd",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_common_cold",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_coughing_up_blood_or_mucous",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_diaphragm",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_disorder_copd",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_emphysema",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_epiglottis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_esophagus",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_influenza",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_larynx",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_lung_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_mucous_membrane",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_night_sweats",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_nose_passage",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_phlegm",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_pleura",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_pulmonary_function_test",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_shaking_chills",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_shortness_of_breath",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_sinuses",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_trachea",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_tuberculosis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_respiratory_wheezing",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_acne",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_athlete_s_foot",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_basal_cell_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_biopsy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_birthmarks",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_blistering",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_blood_vessels",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_burns",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_calluses",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_chickenpox",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_cold_sore",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_corns",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_cracked_scaly_skin",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_eczema",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_epidermis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_first_degree_burn",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_flat_warts",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_fungus",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_hair_follicles_sacs",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_herpes_virus_simplex",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_human_papilloma_virus_hpv",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_moles",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_plantar_warts",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_pumice_stone",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_scarring",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_shingles",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_skin_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_squamous_cell_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_sunburn",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_varicella_zoster_virus",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_skin_warts",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_benign_prostatic_hyperplasia",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_bladder",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_bladder_training",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_blood_in_the_urine",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_burning_when_you_urinate",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_cystoscope",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_cystoscopy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_distending_the_bladder",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_electrical_nerve_stimulation",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_hemodialysis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_interstitial_cystitis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_intravenous_pyelogram_ivp",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_kidney_failure",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_kidney_stones",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_lifestyle_changes",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_lithotripsy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_lithroscopy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_nephrologist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_pain_below_the_ribs",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_peritoneal_dialysis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_prostatitis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_renal_dialysis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_shakiness",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_sphincter_muscle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_ureter",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_urethra",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_urinary_tract_infection",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_urine_analysis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_urine_test",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_urinary_urologist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_amniotic_sac",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_bloody_discharge",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_breast_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_cervix",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_cesarean_section",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_conception",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_dilation_and_curettage_d_and_c",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_ectopic_tubal_pregnancy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_endometrium",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_epidural",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_fallopian_tubes",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_feeling_dizzy_or_faint",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_female_infertility",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_fetal_monitor",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_fibroids",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_genetic_counseling",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_gynecologist",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_hysterectomy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_mammogram",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_miscarriage",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_ovarian_cyst",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_pap_smear",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_plug",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_sexually_transmitted_disease",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_sexually_transmitted_diseases_std_s",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_spotting",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_ultrasound",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_umbilical_cord",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_vaginal_infection",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_female_reproduction_water_broke",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_bladder",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_duct_blockages",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_erectile_disfunction",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_male_infertility",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_mumps",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_prostrate_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_prostrate_gland",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_scrotum",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_semen_analysis",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_seminal_vesicle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_testicular_cancer",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_undescended_testicle",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_vas_deferens",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_male_reproduction_vasectomy",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_breastfeed",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_breeched",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_bump_lump",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_butt",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_catheter",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_epidural",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_give_birth",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_heart_attack",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_intravenous_infusion",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_leads_electrodes",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_lump",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_medication",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_menstruation",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_miscarriage",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_mole",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_operation_room",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_pregnant",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_remove",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_sprain",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_still_birth",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_strain",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_ultrasound",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_urinal",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_uterus",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_water_broke",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_stroke",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_stress",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    },
+    {
+        "kcId": "kc_miscellaneous_stress_test",
+        "pInit": 0.2,
+        "pLearn": 0.15,
+        "pSlip": 0.1,
+        "pGuess": 0.2
+    }
+]

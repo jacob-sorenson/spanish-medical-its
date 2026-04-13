@@ -1,0 +1,4092 @@
+[
+    {
+        "id": "kc_cardiovascular_anemia",
+        "slug": "cardiovascular-anemia",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Anemia",
+        "officialSpanish": "Anemia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_aneurysm",
+        "slug": "cardiovascular-aneurysm",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Aneurysm",
+        "officialSpanish": "Aneurisma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_angina",
+        "slug": "cardiovascular-angina",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Angina",
+        "officialSpanish": "Angina",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_aorta",
+        "slug": "cardiovascular-aorta",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Aorta",
+        "officialSpanish": "Aorta",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_arrythmia",
+        "slug": "cardiovascular-arrythmia",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Arrythmia",
+        "officialSpanish": "Arritmia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_blood_test",
+        "slug": "cardiovascular-blood-test",
+        "system": "cardiovascular",
+        "termType": "test",
+        "englishTerm": "Blood Test",
+        "officialSpanish": "Análisis de sangre",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_blood_vessels",
+        "slug": "cardiovascular-blood-vessels",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Blood vessels",
+        "officialSpanish": "Vasos sanguíneos",
+        "backupTerms": [
+            "Arterias"
+        ],
+        "otherTerms": [
+            "Venas"
+        ],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_bone_marrow",
+        "slug": "cardiovascular-bone-marrow",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Bone marrow",
+        "officialSpanish": "Medula ósea",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_capillaries",
+        "slug": "cardiovascular-capillaries",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Capillaries",
+        "officialSpanish": "Capilares",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_cholesterol",
+        "slug": "cardiovascular-cholesterol",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Cholesterol",
+        "officialSpanish": "Colesterol",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": true
+    },
+    {
+        "id": "kc_cardiovascular_congenital_heart_defect",
+        "slug": "cardiovascular-congenital-heart-defect",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Congenital heart defect",
+        "officialSpanish": "Defecto cardiaco congénito",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_congestive_heart_failure",
+        "slug": "cardiovascular-congestive-heart-failure",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Congestive heart failure",
+        "officialSpanish": "Insuficiencia cardiaca",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_diastolic_heart_pressure",
+        "slug": "cardiovascular-diastolic-heart-pressure",
+        "system": "cardiovascular",
+        "termType": "symptom",
+        "englishTerm": "Diastolic heart pressure",
+        "officialSpanish": "Presión cardiaca diastólica",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_echocardiogram_echo",
+        "slug": "cardiovascular-echocardiogram-echo",
+        "system": "cardiovascular",
+        "termType": "test",
+        "englishTerm": "Echocardiogram (Echo)",
+        "officialSpanish": "Ecocardiograma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_electrocardiogram_ekg",
+        "slug": "cardiovascular-electrocardiogram-ekg",
+        "system": "cardiovascular",
+        "termType": "test",
+        "englishTerm": "Electrocardiogram (EKG)",
+        "officialSpanish": "electrocardiograma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_exercise_tolerance_test",
+        "slug": "cardiovascular-exercise-tolerance-test",
+        "system": "cardiovascular",
+        "termType": "test",
+        "englishTerm": "Exercise tolerance test",
+        "officialSpanish": "Prueba de esfuerzo",
+        "backupTerms": [
+            "Prueba de tolerancia al ejercicio"
+        ],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_heart_attack",
+        "slug": "cardiovascular-heart-attack",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Heart Attack",
+        "officialSpanish": "Ataque cardiaco",
+        "backupTerms": [
+            "Ataque al corazón"
+        ],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_hypertension",
+        "slug": "cardiovascular-hypertension",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Hypertension",
+        "officialSpanish": "Hipertensión",
+        "backupTerms": [
+            "Alta presión cardí aca"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_hypothermia",
+        "slug": "cardiovascular-hypothermia",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Hypothermia",
+        "officialSpanish": "Hipotermia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_inferior_vena_cava",
+        "slug": "cardiovascular-inferior-vena-cava",
+        "system": "cardiovascular",
+        "termType": "other",
+        "englishTerm": "Inferior vena cava",
+        "officialSpanish": "Vena cava inferior",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_left_auricle",
+        "slug": "cardiovascular-left-auricle",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Left auricle",
+        "officialSpanish": "Aurícula Izquierda",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_left_ventricle",
+        "slug": "cardiovascular-left-ventricle",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Left ventricle",
+        "officialSpanish": "Ventrículo izquierdo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_lymph_nodes",
+        "slug": "cardiovascular-lymph-nodes",
+        "system": "cardiovascular",
+        "termType": "other",
+        "englishTerm": "Lymph nodes",
+        "officialSpanish": "Nódulos linfáticos",
+        "backupTerms": [
+            "Ganglios",
+            "glándulas"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_myocardial_infarction",
+        "slug": "cardiovascular-myocardial-infarction",
+        "system": "cardiovascular",
+        "termType": "other",
+        "englishTerm": "Myocardial infarction",
+        "officialSpanish": "Infarto del miocardio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 5,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_pulmonary_artery",
+        "slug": "cardiovascular-pulmonary-artery",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Pulmonary artery",
+        "officialSpanish": "Arteria pulmonar",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_pulmonary_veins",
+        "slug": "cardiovascular-pulmonary-veins",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Pulmonary veins",
+        "officialSpanish": "Venas pulmonares",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_sickle_cell_anemia",
+        "slug": "cardiovascular-sickle-cell-anemia",
+        "system": "cardiovascular",
+        "termType": "condition",
+        "englishTerm": "Sickle-cell anemia",
+        "officialSpanish": "Anemia falciforme",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_spleen",
+        "slug": "cardiovascular-spleen",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Spleen",
+        "officialSpanish": "Bazo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_systolic_pressure",
+        "slug": "cardiovascular-systolic-pressure",
+        "system": "cardiovascular",
+        "termType": "symptom",
+        "englishTerm": "Systolic pressure",
+        "officialSpanish": "Presión sistólica",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_valves",
+        "slug": "cardiovascular-valves",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Valves",
+        "officialSpanish": "Válvulas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_cardiovascular_varicose_veins",
+        "slug": "cardiovascular-varicose-veins",
+        "system": "cardiovascular",
+        "termType": "anatomy",
+        "englishTerm": "Varicose veins",
+        "officialSpanish": "Varices",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_acid_reflux",
+        "slug": "digestive-acid-reflux",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Acid reflux",
+        "officialSpanish": "Reflujo ácido",
+        "backupTerms": [
+            "Acidez estomacal"
+        ],
+        "otherTerms": [
+            "agruras"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_appendicitis",
+        "slug": "digestive-appendicitis",
+        "system": "digestive",
+        "termType": "other",
+        "englishTerm": "Appendicitis",
+        "officialSpanish": "Apendicitis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_appendix",
+        "slug": "digestive-appendix",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Appendix",
+        "officialSpanish": "Apéndice",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_bowel",
+        "slug": "digestive-bowel",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Bowel",
+        "officialSpanish": "Intestino",
+        "backupTerms": [
+            "entrañas"
+        ],
+        "otherTerms": [
+            "Tripas"
+        ],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_bowel_movement",
+        "slug": "digestive-bowel-movement",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Bowel movement",
+        "officialSpanish": "Defecación",
+        "backupTerms": [
+            "Evacuación",
+            "deposición"
+        ],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_cirrhosis",
+        "slug": "digestive-cirrhosis",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Cirrhosis",
+        "officialSpanish": "Cirrosis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_colonoscopy",
+        "slug": "digestive-colonoscopy",
+        "system": "digestive",
+        "termType": "procedure",
+        "englishTerm": "Colonoscopy",
+        "officialSpanish": "Colonoscopia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_constipation",
+        "slug": "digestive-constipation",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Constipation",
+        "officialSpanish": "Estreñimiento",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_diarrhea",
+        "slug": "digestive-diarrhea",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Diarrhea",
+        "officialSpanish": "Diarrea",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_endoscopy",
+        "slug": "digestive-endoscopy",
+        "system": "digestive",
+        "termType": "procedure",
+        "englishTerm": "Endoscopy",
+        "officialSpanish": "Endoscopia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_epiglottis",
+        "slug": "digestive-epiglottis",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Epiglottis",
+        "officialSpanish": "Epiglotis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_esophagus",
+        "slug": "digestive-esophagus",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Esophagus",
+        "officialSpanish": "Esófago",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_gallbladder",
+        "slug": "digestive-gallbladder",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Gallbladder",
+        "officialSpanish": "Vesícula biliar",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_gallstones",
+        "slug": "digestive-gallstones",
+        "system": "digestive",
+        "termType": "other",
+        "englishTerm": "Gallstones",
+        "officialSpanish": "Cálculos a la vesícula",
+        "backupTerms": [
+            "Piedras"
+        ],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_gastroenteritis",
+        "slug": "digestive-gastroenteritis",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Gastroenteritis",
+        "officialSpanish": "Gastroenteritis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_gum_disease",
+        "slug": "digestive-gum-disease",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Gum disease",
+        "officialSpanish": "Piorrea",
+        "backupTerms": [
+            "Gingivitis"
+        ],
+        "otherTerms": [
+            "Enfermedad de las encías"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_gums",
+        "slug": "digestive-gums",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Gums",
+        "officialSpanish": "Encías",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_heartburn",
+        "slug": "digestive-heartburn",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Heartburn",
+        "officialSpanish": "Agruras",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_hemorrhoids",
+        "slug": "digestive-hemorrhoids",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Hemorrhoids",
+        "officialSpanish": "Hemorroides",
+        "backupTerms": [
+            "Almorranas"
+        ],
+        "otherTerms": [
+            "hemorroides"
+        ],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_hiatal_hernia",
+        "slug": "digestive-hiatal-hernia",
+        "system": "digestive",
+        "termType": "condition",
+        "englishTerm": "Hiatal hernia",
+        "officialSpanish": "Hernia hiatal",
+        "backupTerms": [
+            "Hernia de hiato"
+        ],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_irritable_bowel_syndrome",
+        "slug": "digestive-irritable-bowel-syndrome",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Irritable bowel syndrome",
+        "officialSpanish": "Síndrome del intestino irritado",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_large_intestine",
+        "slug": "digestive-large-intestine",
+        "system": "digestive",
+        "termType": "test",
+        "englishTerm": "Large intestine",
+        "officialSpanish": "Intestino grueso",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_pancreas",
+        "slug": "digestive-pancreas",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Pancreas",
+        "officialSpanish": "Páncreas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_peptic_ulcer",
+        "slug": "digestive-peptic-ulcer",
+        "system": "digestive",
+        "termType": "other",
+        "englishTerm": "Peptic ulcer",
+        "officialSpanish": "Ulcera péptica",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 5,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_rectum",
+        "slug": "digestive-rectum",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Rectum",
+        "officialSpanish": "Recto",
+        "backupTerms": [
+            "Ano"
+        ],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_saliva_glands",
+        "slug": "digestive-saliva-glands",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Saliva glands",
+        "officialSpanish": "Glándulas Salivales / salivares",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_sigmoid_colon",
+        "slug": "digestive-sigmoid-colon",
+        "system": "digestive",
+        "termType": "other",
+        "englishTerm": "Sigmoid colon",
+        "officialSpanish": "Colon sigmoideo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 5,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_stomach",
+        "slug": "digestive-stomach",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Stomach",
+        "officialSpanish": "Estómago",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_trachea",
+        "slug": "digestive-trachea",
+        "system": "digestive",
+        "termType": "anatomy",
+        "englishTerm": "Trachea",
+        "officialSpanish": "Tráquea",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_digestive_upper_gi_series",
+        "slug": "digestive-upper-gi-series",
+        "system": "digestive",
+        "termType": "test",
+        "englishTerm": "Upper GI Series",
+        "officialSpanish": "Serie gastrointestinal",
+        "backupTerms": [
+            "Fluoroscopía"
+        ],
+        "otherTerms": [
+            "Radiografía en serie gastrointestinal"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_adrenal_glands",
+        "slug": "endocrine-adrenal-glands",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Adrenal glands",
+        "officialSpanish": "Glándula suprarrenal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_autoimmune",
+        "slug": "endocrine-autoimmune",
+        "system": "endocrine",
+        "termType": "other",
+        "englishTerm": "Autoimmune",
+        "officialSpanish": "Autoinmune",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_congenital_hypothyroidism",
+        "slug": "endocrine-congenital-hypothyroidism",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Congenital hypothyroidism",
+        "officialSpanish": "Hipotiroidismo congénito",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_cushing_s_syndrome",
+        "slug": "endocrine-cushing-s-syndrome",
+        "system": "endocrine",
+        "termType": "condition",
+        "englishTerm": "Cushing’s syndrome",
+        "officialSpanish": "Síndrome de Cushing",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_decreased_sweating",
+        "slug": "endocrine-decreased-sweating",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Decreased sweating",
+        "officialSpanish": "Disminución del sudor",
+        "backupTerms": [
+            "Disminución de la transpiración Arg.)"
+        ],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_depression",
+        "slug": "endocrine-depression",
+        "system": "endocrine",
+        "termType": "condition",
+        "englishTerm": "Depression",
+        "officialSpanish": "Depresión",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_diabetes",
+        "slug": "endocrine-diabetes",
+        "system": "endocrine",
+        "termType": "condition",
+        "englishTerm": "Diabetes",
+        "officialSpanish": "Diabetes",
+        "backupTerms": [],
+        "otherTerms": [
+            "Diabetis (Coll.)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_dry_skin",
+        "slug": "endocrine-dry-skin",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Dry skin",
+        "officialSpanish": "Piel seca",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_endocrinologist",
+        "slug": "endocrine-endocrinologist",
+        "system": "endocrine",
+        "termType": "specialist",
+        "englishTerm": "Endocrinologist",
+        "officialSpanish": "Endocrinólogo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_enlarged_thyroid",
+        "slug": "endocrine-enlarged-thyroid",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Enlarged thyroid",
+        "officialSpanish": "Tiroides agrandada",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_fatigue_muscle_weakness",
+        "slug": "endocrine-fatigue-muscle-weakness",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Fatigue / muscle weakness",
+        "officialSpanish": "Fatiga / Debilidad muscular",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_goiter",
+        "slug": "endocrine-goiter",
+        "system": "endocrine",
+        "termType": "condition",
+        "englishTerm": "Goiter",
+        "officialSpanish": "Bocio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_hand_tremors",
+        "slug": "endocrine-hand-tremors",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Hand tremors",
+        "officialSpanish": "Temblor de la mano",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_heat_intolerance",
+        "slug": "endocrine-heat-intolerance",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Heat intolerance",
+        "officialSpanish": "Intolerancia al calor",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_heavy_menstrual_periods",
+        "slug": "endocrine-heavy-menstrual-periods",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Heavy menstrual periods",
+        "officialSpanish": "Menorragia",
+        "backupTerms": [
+            "Período menstrual intenso"
+        ],
+        "otherTerms": [
+            "Menstruación fuerte"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_hormone_imbalance",
+        "slug": "endocrine-hormone-imbalance",
+        "system": "endocrine",
+        "termType": "other",
+        "englishTerm": "Hormone imbalance",
+        "officialSpanish": "Desequilibrio hormonal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_hormones",
+        "slug": "endocrine-hormones",
+        "system": "endocrine",
+        "termType": "other",
+        "englishTerm": "Hormones",
+        "officialSpanish": "Hormonas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_hyperthyroidism",
+        "slug": "endocrine-hyperthyroidism",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Hyperthyroidism",
+        "officialSpanish": "Hipertiroidismo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_metabolism",
+        "slug": "endocrine-metabolism",
+        "system": "endocrine",
+        "termType": "other",
+        "englishTerm": "metabolism",
+        "officialSpanish": "Metabolismo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_mood_swings",
+        "slug": "endocrine-mood-swings",
+        "system": "endocrine",
+        "termType": "other",
+        "englishTerm": "Mood swings",
+        "officialSpanish": "Cambios de humor",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 4,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_ovaries",
+        "slug": "endocrine-ovaries",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Ovaries",
+        "officialSpanish": "Ovarios",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 1,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_pancreas",
+        "slug": "endocrine-pancreas",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Pancreas",
+        "officialSpanish": "Páncreas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 3,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_parathyroid_gland",
+        "slug": "endocrine-parathyroid-gland",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Parathyroid gland",
+        "officialSpanish": "Glándula Paratiroides",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_pituitary_glad",
+        "slug": "endocrine-pituitary-glad",
+        "system": "endocrine",
+        "termType": "other",
+        "englishTerm": "Pituitary glad",
+        "officialSpanish": "Glándula pituitaria",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_rapid_irregular_heartbeat",
+        "slug": "endocrine-rapid-irregular-heartbeat",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Rapid / irregular heartbeat",
+        "officialSpanish": "Taquicardia",
+        "backupTerms": [
+            "Latidos rápidos o irregulares del corazón"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_slowed_heart_rate",
+        "slug": "endocrine-slowed-heart-rate",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Slowed heart rate",
+        "officialSpanish": "Bradicardia",
+        "backupTerms": [
+            "Latidos lentos del corazón"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_thinning_hair",
+        "slug": "endocrine-thinning-hair",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Thinning hair",
+        "officialSpanish": "Cabello ralo",
+        "backupTerms": [
+            "Pelo ralo"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_thyroid_gland",
+        "slug": "endocrine-thyroid-gland",
+        "system": "endocrine",
+        "termType": "anatomy",
+        "englishTerm": "Thyroid gland",
+        "officialSpanish": "Glándula tiroides",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_trouble_sleeping",
+        "slug": "endocrine-trouble-sleeping",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Trouble sleeping",
+        "officialSpanish": "Insomnio",
+        "backupTerms": [
+            "Dificultad para dormir"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_ultrasound",
+        "slug": "endocrine-ultrasound",
+        "system": "endocrine",
+        "termType": "test",
+        "englishTerm": "Ultrasound",
+        "officialSpanish": "Ecografía",
+        "backupTerms": [
+            "Ultrasonido"
+        ],
+        "otherTerms": [
+            "S onograma"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_endocrine_weight_loss",
+        "slug": "endocrine-weight-loss",
+        "system": "endocrine",
+        "termType": "symptom",
+        "englishTerm": "Weight loss",
+        "officialSpanish": "Pérdida de peso",
+        "backupTerms": [
+            "Adelgazar"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_arthritis",
+        "slug": "musculoskeletal-arthritis",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Arthritis",
+        "officialSpanish": "Artritis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_back_pain",
+        "slug": "musculoskeletal-back-pain",
+        "system": "musculoskeletal",
+        "termType": "symptom",
+        "englishTerm": "Back pain",
+        "officialSpanish": "Dolor de espalda",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_bone_marrow",
+        "slug": "musculoskeletal-bone-marrow",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Bone marrow",
+        "officialSpanish": "Médula ósea",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_bony_spurs",
+        "slug": "musculoskeletal-bony-spurs",
+        "system": "musculoskeletal",
+        "termType": "other",
+        "englishTerm": "Bony spurs",
+        "officialSpanish": "Espolones óseos",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_carpal_tunnel_syndrome",
+        "slug": "musculoskeletal-carpal-tunnel-syndrome",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Carpal tunnel syndrome",
+        "officialSpanish": "Síndrome túnel carpiano",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_cartilage",
+        "slug": "musculoskeletal-cartilage",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Cartilage",
+        "officialSpanish": "Cartílago",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_cartilage_pad",
+        "slug": "musculoskeletal-cartilage-pad",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Cartilage pad",
+        "officialSpanish": "Tejido cartilaginoso",
+        "backupTerms": [
+            "A lmohadilla de cartílago"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_coccyx",
+        "slug": "musculoskeletal-coccyx",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Coccyx",
+        "officialSpanish": "Coxis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_compound_fracture",
+        "slug": "musculoskeletal-compound-fracture",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Compound fracture",
+        "officialSpanish": "Fractura abierta",
+        "backupTerms": [
+            "Fractura compuesta"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_ct_scan",
+        "slug": "musculoskeletal-ct-scan",
+        "system": "musculoskeletal",
+        "termType": "test",
+        "englishTerm": "CT Scan",
+        "officialSpanish": "Tomografía computarizada",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_fibromyalgia",
+        "slug": "musculoskeletal-fibromyalgia",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Fibromyalgia",
+        "officialSpanish": "Fibromialgia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_fracture",
+        "slug": "musculoskeletal-fracture",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Fracture",
+        "officialSpanish": "Fractura",
+        "backupTerms": [
+            "Quebradura"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_hernia",
+        "slug": "musculoskeletal-hernia",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Hernia",
+        "officialSpanish": "Hernia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_hip_bone_pelvis",
+        "slug": "musculoskeletal-hip-bone-pelvis",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Hip bone (Pelvis)",
+        "officialSpanish": "Hueso de la cadera (Pelvis)",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_joint",
+        "slug": "musculoskeletal-joint",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Joint",
+        "officialSpanish": "Articulación",
+        "backupTerms": [
+            "Coyuntura"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_kneecap_patella",
+        "slug": "musculoskeletal-kneecap-patella",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Kneecap (Patella)",
+        "officialSpanish": "Rótula",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_knobby_joints",
+        "slug": "musculoskeletal-knobby-joints",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Knobby joints",
+        "officialSpanish": "Articulaciones nudosas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_ligament",
+        "slug": "musculoskeletal-ligament",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Ligament",
+        "officialSpanish": "Ligamento",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_limited_mobility",
+        "slug": "musculoskeletal-limited-mobility",
+        "system": "musculoskeletal",
+        "termType": "symptom",
+        "englishTerm": "Limited mobility",
+        "officialSpanish": "Movilidad limitada",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_mri",
+        "slug": "musculoskeletal-mri",
+        "system": "musculoskeletal",
+        "termType": "test",
+        "englishTerm": "MRI",
+        "officialSpanish": "Imagen de resonancia magnética",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_muscle",
+        "slug": "musculoskeletal-muscle",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Muscle",
+        "officialSpanish": "Músculo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_muscle_fiber",
+        "slug": "musculoskeletal-muscle-fiber",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Muscle fiber",
+        "officialSpanish": "Fibra muscular",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_osteoporosis",
+        "slug": "musculoskeletal-osteoporosis",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Osteoporosis",
+        "officialSpanish": "Osteoporosis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_podiatrist",
+        "slug": "musculoskeletal-podiatrist",
+        "system": "musculoskeletal",
+        "termType": "specialist",
+        "englishTerm": "Podiatrist",
+        "officialSpanish": "Podólogo",
+        "backupTerms": [
+            "Pedicuro (Arg.)"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_rheumatologist",
+        "slug": "musculoskeletal-rheumatologist",
+        "system": "musculoskeletal",
+        "termType": "specialist",
+        "englishTerm": "Rheumatologist",
+        "officialSpanish": "Reumatólogo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_simple_or_complex_fracture",
+        "slug": "musculoskeletal-simple-or-complex-fracture",
+        "system": "musculoskeletal",
+        "termType": "condition",
+        "englishTerm": "Simple or complex fracture",
+        "officialSpanish": "Fractura simple o compleja",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_skull",
+        "slug": "musculoskeletal-skull",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Skull",
+        "officialSpanish": "Cráneo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_strain",
+        "slug": "musculoskeletal-strain",
+        "system": "musculoskeletal",
+        "termType": "other",
+        "englishTerm": "Strain",
+        "officialSpanish": "Esquince",
+        "backupTerms": [
+            "Distensión"
+        ],
+        "otherTerms": [
+            "Estrés"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_tendon",
+        "slug": "musculoskeletal-tendon",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Tendon",
+        "officialSpanish": "Tendón",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_vertebra",
+        "slug": "musculoskeletal-vertebra",
+        "system": "musculoskeletal",
+        "termType": "anatomy",
+        "englishTerm": "Vertebra",
+        "officialSpanish": "Vértebra",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_musculoskeletal_x_ray",
+        "slug": "musculoskeletal-x-ray",
+        "system": "musculoskeletal",
+        "termType": "test",
+        "englishTerm": "x-ray",
+        "officialSpanish": "Radiografía",
+        "backupTerms": [
+            "Rayos X"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_alzheimer_s_disease",
+        "slug": "nervous-alzheimer-s-disease",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Alzheimer’s disease",
+        "officialSpanish": "Enfermedad de Alzheimer",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_aqueous_humor",
+        "slug": "nervous-aqueous-humor",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Aqueous humor",
+        "officialSpanish": "humor acuoso",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_blurry_vision",
+        "slug": "nervous-blurry-vision",
+        "system": "nervous",
+        "termType": "symptom",
+        "englishTerm": "Blurry vision",
+        "officialSpanish": "Vista / visión borrosa",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_cataract",
+        "slug": "nervous-cataract",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Cataract",
+        "officialSpanish": "Catarata",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_central_nervous_system",
+        "slug": "nervous-central-nervous-system",
+        "system": "nervous",
+        "termType": "other",
+        "englishTerm": "Central nervous system",
+        "officialSpanish": "sistema nervioso central",
+        "backupTerms": [
+            "aparato nervioso central"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_cerebral_palsy",
+        "slug": "nervous-cerebral-palsy",
+        "system": "nervous",
+        "termType": "other",
+        "englishTerm": "Cerebral palsy",
+        "officialSpanish": "Parálisis cerebral",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_cochlea",
+        "slug": "nervous-cochlea",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Cochlea",
+        "officialSpanish": "Cóclea",
+        "backupTerms": [
+            "Caracol"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_conjunctivitis",
+        "slug": "nervous-conjunctivitis",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Conjunctivitis",
+        "officialSpanish": "Conjuntivitis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_dementia",
+        "slug": "nervous-dementia",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Dementia",
+        "officialSpanish": "Demencia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_double_vision",
+        "slug": "nervous-double-vision",
+        "system": "nervous",
+        "termType": "symptom",
+        "englishTerm": "Double vision",
+        "officialSpanish": "Diploplía",
+        "backupTerms": [
+            "Visió n / vista doble"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_ear_drum",
+        "slug": "nervous-ear-drum",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Ear drum",
+        "officialSpanish": "Membrana timpánica",
+        "backupTerms": [
+            "tímpano"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_electroencephalogram_eeg",
+        "slug": "nervous-electroencephalogram-eeg",
+        "system": "nervous",
+        "termType": "test",
+        "englishTerm": "Electroencephalogram EEG",
+        "officialSpanish": "Electroencefalograma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_epilepsy",
+        "slug": "nervous-epilepsy",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Epilepsy",
+        "officialSpanish": "Epilepsia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_eustachian_tube",
+        "slug": "nervous-eustachian-tube",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Eustachian tube",
+        "officialSpanish": "Trompa de Eustaquio",
+        "backupTerms": [
+            "Tubo faringotimpánico"
+        ],
+        "otherTerms": [
+            "Trompa auditiva"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_glare",
+        "slug": "nervous-glare",
+        "system": "nervous",
+        "termType": "symptom",
+        "englishTerm": "glare",
+        "officialSpanish": "brillo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_glaucoma",
+        "slug": "nervous-glaucoma",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Glaucoma",
+        "officialSpanish": "Glaucoma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_inner_ear",
+        "slug": "nervous-inner-ear",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Inner ear",
+        "officialSpanish": "Oído interno",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_iris",
+        "slug": "nervous-iris",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Iris",
+        "officialSpanish": "Iris",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_lens_muscle",
+        "slug": "nervous-lens-muscle",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Lens muscle",
+        "officialSpanish": "Músculo ciliar",
+        "backupTerms": [
+            "Músculo del cristalino"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_loss_of_balance_coordination",
+        "slug": "nervous-loss-of-balance-coordination",
+        "system": "nervous",
+        "termType": "symptom",
+        "englishTerm": "Loss of balance coordination",
+        "officialSpanish": "Pérdida del equilibrio,",
+        "backupTerms": [
+            "pérdida de la coordinación"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_middle_ear",
+        "slug": "nervous-middle-ear",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Middle ear",
+        "officialSpanish": "Oído medio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_motor_nerves",
+        "slug": "nervous-motor-nerves",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Motor nerves",
+        "officialSpanish": "Nervios motores",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_nerve_cells",
+        "slug": "nervous-nerve-cells",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Nerve cells",
+        "officialSpanish": "Células nerviosas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_nerve_impulses",
+        "slug": "nervous-nerve-impulses",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Nerve impulses",
+        "officialSpanish": "Impulso nervioso",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_ophthalmologist",
+        "slug": "nervous-ophthalmologist",
+        "system": "nervous",
+        "termType": "specialist",
+        "englishTerm": "Ophthalmologist",
+        "officialSpanish": "Oftalmólogo",
+        "backupTerms": [
+            "Oculista"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_optic_nerve",
+        "slug": "nervous-optic-nerve",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Optic nerve",
+        "officialSpanish": "Nervio óptico",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_outer_ear",
+        "slug": "nervous-outer-ear",
+        "system": "nervous",
+        "termType": "anatomy",
+        "englishTerm": "Outer ear",
+        "officialSpanish": "Oído externo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_spinal_cord_injury",
+        "slug": "nervous-spinal-cord-injury",
+        "system": "nervous",
+        "termType": "other",
+        "englishTerm": "Spinal cord injury",
+        "officialSpanish": "Traumatismo de la médula espinal",
+        "backupTerms": [
+            "Lesión de la médula espinal"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_lumbar_puncture_spinal_tap",
+        "slug": "nervous-lumbar-puncture-spinal-tap",
+        "system": "nervous",
+        "termType": "procedure",
+        "englishTerm": "Lumbar puncture / Spinal tap",
+        "officialSpanish": "Punción lumbar / espinal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_stroke",
+        "slug": "nervous-stroke",
+        "system": "nervous",
+        "termType": "condition",
+        "englishTerm": "Stroke",
+        "officialSpanish": "Derrame cerebral",
+        "backupTerms": [
+            "Accidente cerebrovascular"
+        ],
+        "otherTerms": [
+            "Ataque cerebral"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_nervous_trembling_hands",
+        "slug": "nervous-trembling-hands",
+        "system": "nervous",
+        "termType": "symptom",
+        "englishTerm": "Trembling hands,",
+        "officialSpanish": "Manos temblorosas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_acute_bronchitis",
+        "slug": "respiratory-acute-bronchitis",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Acute bronchitis",
+        "officialSpanish": "Bronquitis aguda",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_alveoli",
+        "slug": "respiratory-alveoli",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Alveoli",
+        "officialSpanish": "Alvéolo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_asthma",
+        "slug": "respiratory-asthma",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Asthma",
+        "officialSpanish": "Asma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_bronchi",
+        "slug": "respiratory-bronchi",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Bronchi",
+        "officialSpanish": "Bronquio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_bronchitis",
+        "slug": "respiratory-bronchitis",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Bronchitis",
+        "officialSpanish": "Bronquitis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_bronchoscopy",
+        "slug": "respiratory-bronchoscopy",
+        "system": "respiratory",
+        "termType": "procedure",
+        "englishTerm": "Bronchoscopy",
+        "officialSpanish": "Broncoscopía",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_chest_tightness",
+        "slug": "respiratory-chest-tightness",
+        "system": "respiratory",
+        "termType": "symptom",
+        "englishTerm": "Chest tightness",
+        "officialSpanish": "Opresión en el pecho",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_chronic_obstructive_pulmonary_disorder_copd",
+        "slug": "respiratory-chronic-obstructive-pulmonary-disorder-copd",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Chronic obstructive pulmonary disorder (COPD)",
+        "officialSpanish": "Enfermedad pulmonar obstructiva crónica (EPOC)",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_common_cold",
+        "slug": "respiratory-common-cold",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Common cold",
+        "officialSpanish": "Resfriado",
+        "backupTerms": [
+            "Resfrío"
+        ],
+        "otherTerms": [
+            "Gripe",
+            "Gripa"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_coughing_up_blood_or_mucous",
+        "slug": "respiratory-coughing-up-blood-or-mucous",
+        "system": "respiratory",
+        "termType": "symptom",
+        "englishTerm": "Coughing up blood or mucous",
+        "officialSpanish": "Tos con sangre / mocos / flemas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_diaphragm",
+        "slug": "respiratory-diaphragm",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Diaphragm",
+        "officialSpanish": "Diafragma",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_disorder_copd",
+        "slug": "respiratory-disorder-copd",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Disorder (COPD)",
+        "officialSpanish": "Trastorno",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_emphysema",
+        "slug": "respiratory-emphysema",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Emphysema",
+        "officialSpanish": "Enfisema",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_epiglottis",
+        "slug": "respiratory-epiglottis",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Epiglottis",
+        "officialSpanish": "epiglótis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_esophagus",
+        "slug": "respiratory-esophagus",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Esophagus",
+        "officialSpanish": "Esófago",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_influenza",
+        "slug": "respiratory-influenza",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Influenza",
+        "officialSpanish": "Influenza",
+        "backupTerms": [
+            "Gripe"
+        ],
+        "otherTerms": [
+            "Gripa",
+            "Flu"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_larynx",
+        "slug": "respiratory-larynx",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Larynx",
+        "officialSpanish": "Laringe",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_lung_cancer",
+        "slug": "respiratory-lung-cancer",
+        "system": "respiratory",
+        "termType": "condition",
+        "englishTerm": "Lung cancer",
+        "officialSpanish": "Cáncer del pulmón",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_mucous_membrane",
+        "slug": "respiratory-mucous-membrane",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Mucous membrane",
+        "officialSpanish": "Membranas mucosas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_night_sweats",
+        "slug": "respiratory-night-sweats",
+        "system": "respiratory",
+        "termType": "symptom",
+        "englishTerm": "Night sweats",
+        "officialSpanish": "Sudores nocturnos",
+        "backupTerms": [
+            "Sudoración nocturna"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_nose_passage",
+        "slug": "respiratory-nose-passage",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Nose passage",
+        "officialSpanish": "Pasaje nasal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_phlegm",
+        "slug": "respiratory-phlegm",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Phlegm",
+        "officialSpanish": "Flema",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_pleura",
+        "slug": "respiratory-pleura",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Pleura",
+        "officialSpanish": "Pleura",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_pulmonary_function_test",
+        "slug": "respiratory-pulmonary-function-test",
+        "system": "respiratory",
+        "termType": "test",
+        "englishTerm": "Pulmonary function test",
+        "officialSpanish": "Prueba de la función pulmonar",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_shaking_chills",
+        "slug": "respiratory-shaking-chills",
+        "system": "respiratory",
+        "termType": "symptom",
+        "englishTerm": "Shaking chills",
+        "officialSpanish": "Escalofríos (intensos)",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_shortness_of_breath",
+        "slug": "respiratory-shortness-of-breath",
+        "system": "respiratory",
+        "termType": "symptom",
+        "englishTerm": "Shortness of breath",
+        "officialSpanish": "Falta de aire",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_sinuses",
+        "slug": "respiratory-sinuses",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Sinuses",
+        "officialSpanish": "Senos nasales",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_trachea",
+        "slug": "respiratory-trachea",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Trachea",
+        "officialSpanish": "Tráquea",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_tuberculosis",
+        "slug": "respiratory-tuberculosis",
+        "system": "respiratory",
+        "termType": "anatomy",
+        "englishTerm": "Tuberculosis",
+        "officialSpanish": "Tuberculosis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_respiratory_wheezing",
+        "slug": "respiratory-wheezing",
+        "system": "respiratory",
+        "termType": "symptom",
+        "englishTerm": "Wheezing",
+        "officialSpanish": "Silbido",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_acne",
+        "slug": "skin-acne",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Acne",
+        "officialSpanish": "Acné",
+        "backupTerms": [
+            "Granitos (Argentina)"
+        ],
+        "otherTerms": [
+            "granos"
+        ],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_athlete_s_foot",
+        "slug": "skin-athlete-s-foot",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Athlete’s foot",
+        "officialSpanish": "Pie de atleta",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_basal_cell_cancer",
+        "slug": "skin-basal-cell-cancer",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Basal cell cancer",
+        "officialSpanish": "Cáncer de células basales",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_biopsy",
+        "slug": "skin-biopsy",
+        "system": "skin",
+        "termType": "procedure",
+        "englishTerm": "Biopsy",
+        "officialSpanish": "Biopsia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_birthmarks",
+        "slug": "skin-birthmarks",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Birthmarks",
+        "officialSpanish": "Marca de nacimiento",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_blistering",
+        "slug": "skin-blistering",
+        "system": "skin",
+        "termType": "symptom",
+        "englishTerm": "Blistering",
+        "officialSpanish": "Ampollas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_blood_vessels",
+        "slug": "skin-blood-vessels",
+        "system": "skin",
+        "termType": "anatomy",
+        "englishTerm": "Blood vessels",
+        "officialSpanish": "Vasos sanguíneos",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_burns",
+        "slug": "skin-burns",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Burns",
+        "officialSpanish": "Quemaduras",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_calluses",
+        "slug": "skin-calluses",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Calluses",
+        "officialSpanish": "Callos",
+        "backupTerms": [
+            "Durezas"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_chickenpox",
+        "slug": "skin-chickenpox",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Chickenpox",
+        "officialSpanish": "Varicela",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_skin_cold_sore",
+        "slug": "skin-cold-sore",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Cold sore",
+        "officialSpanish": "Herpes labial",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_corns",
+        "slug": "skin-corns",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Corns",
+        "officialSpanish": "Heloma",
+        "backupTerms": [
+            "Ojo de gallo (Argentina)"
+        ],
+        "otherTerms": [
+            "Clavo"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_cracked_scaly_skin",
+        "slug": "skin-cracked-scaly-skin",
+        "system": "skin",
+        "termType": "symptom",
+        "englishTerm": "Cracked, scaly skin",
+        "officialSpanish": "Piel agrietada, piel escamosa",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_eczema",
+        "slug": "skin-eczema",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Eczema",
+        "officialSpanish": "Eczema",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_epidermis",
+        "slug": "skin-epidermis",
+        "system": "skin",
+        "termType": "anatomy",
+        "englishTerm": "Epidermis",
+        "officialSpanish": "Epidermis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_first_degree_burn",
+        "slug": "skin-first-degree-burn",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "First degree burn",
+        "officialSpanish": "Quemadura de primer grado",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_flat_warts",
+        "slug": "skin-flat-warts",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Flat warts",
+        "officialSpanish": "Verrugas planas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_fungus",
+        "slug": "skin-fungus",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Fungus",
+        "officialSpanish": "Hongos",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_hair_follicles_sacs",
+        "slug": "skin-hair-follicles-sacs",
+        "system": "skin",
+        "termType": "symptom",
+        "englishTerm": "Hair follicles (SACS)",
+        "officialSpanish": "Folículos pilosos",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_herpes_virus_simplex",
+        "slug": "skin-herpes-virus-simplex",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Herpes virus simplex",
+        "officialSpanish": "Virus de herpes simple",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_human_papilloma_virus_hpv",
+        "slug": "skin-human-papilloma-virus-hpv",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Human papilloma virus (HPV)",
+        "officialSpanish": "Virus del papiloma humano",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_moles",
+        "slug": "skin-moles",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Moles",
+        "officialSpanish": "Lunares",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_plantar_warts",
+        "slug": "skin-plantar-warts",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Plantar warts",
+        "officialSpanish": "Verrugas plantares",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_pumice_stone",
+        "slug": "skin-pumice-stone",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Pumice stone",
+        "officialSpanish": "Piedra pómez",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_scarring",
+        "slug": "skin-scarring",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Scarring",
+        "officialSpanish": "Cicatrices",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_shingles",
+        "slug": "skin-shingles",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Shingles",
+        "officialSpanish": "Herpes zoster",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_skin_cancer",
+        "slug": "skin-skin-cancer",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Skin cancer",
+        "officialSpanish": "Cáncer de piel",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_squamous_cell_cancer",
+        "slug": "skin-squamous-cell-cancer",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Squamous cell cancer",
+        "officialSpanish": "Cáncer de células escamosas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_sunburn",
+        "slug": "skin-sunburn",
+        "system": "skin",
+        "termType": "other",
+        "englishTerm": "Sunburn",
+        "officialSpanish": "Quemadura de sol",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_varicella_zoster_virus",
+        "slug": "skin-varicella-zoster-virus",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Varicella-zoster virus",
+        "officialSpanish": "Virus de la varicela zoster",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_skin_warts",
+        "slug": "skin-warts",
+        "system": "skin",
+        "termType": "condition",
+        "englishTerm": "Warts",
+        "officialSpanish": "Verrugas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_benign_prostatic_hyperplasia",
+        "slug": "urinary-benign-prostatic-hyperplasia",
+        "system": "urinary",
+        "termType": "condition",
+        "englishTerm": "Benign prostatic hyperplasia",
+        "officialSpanish": "Hiperplasia benigna de la próstata",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_bladder",
+        "slug": "urinary-bladder",
+        "system": "urinary",
+        "termType": "anatomy",
+        "englishTerm": "Bladder",
+        "officialSpanish": "Vejiga",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_bladder_training",
+        "slug": "urinary-bladder-training",
+        "system": "urinary",
+        "termType": "treatment",
+        "englishTerm": "Bladder training",
+        "officialSpanish": "Entrenamiento de la vejiga",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_blood_in_the_urine",
+        "slug": "urinary-blood-in-the-urine",
+        "system": "urinary",
+        "termType": "symptom",
+        "englishTerm": "Blood in the urine",
+        "officialSpanish": "hematuria",
+        "backupTerms": [
+            "Sangre en la orina"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_burning_when_you_urinate",
+        "slug": "urinary-burning-when-you-urinate",
+        "system": "urinary",
+        "termType": "symptom",
+        "englishTerm": "Burning when you urinate",
+        "officialSpanish": "Ardor al orinar",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_cystoscope",
+        "slug": "urinary-cystoscope",
+        "system": "urinary",
+        "termType": "other",
+        "englishTerm": "Cystoscope",
+        "officialSpanish": "Cistoscopio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_cystoscopy",
+        "slug": "urinary-cystoscopy",
+        "system": "urinary",
+        "termType": "procedure",
+        "englishTerm": "Cystoscopy",
+        "officialSpanish": "Cistoscopia",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_distending_the_bladder",
+        "slug": "urinary-distending-the-bladder",
+        "system": "urinary",
+        "termType": "anatomy",
+        "englishTerm": "Distending the bladder",
+        "officialSpanish": "Distensión de la vejiga",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_electrical_nerve_stimulation",
+        "slug": "urinary-electrical-nerve-stimulation",
+        "system": "urinary",
+        "termType": "treatment",
+        "englishTerm": "Electrical nerve stimulation",
+        "officialSpanish": "Estimulación eléctrica del nervio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_hemodialysis",
+        "slug": "urinary-hemodialysis",
+        "system": "urinary",
+        "termType": "treatment",
+        "englishTerm": "Hemodialysis",
+        "officialSpanish": "Hemodiálisis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": true
+    },
+    {
+        "id": "kc_urinary_interstitial_cystitis",
+        "slug": "urinary-interstitial-cystitis",
+        "system": "urinary",
+        "termType": "other",
+        "englishTerm": "Interstitial cystitis",
+        "officialSpanish": "Cistitis Intersticial",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_intravenous_pyelogram_ivp",
+        "slug": "urinary-intravenous-pyelogram-ivp",
+        "system": "urinary",
+        "termType": "procedure",
+        "englishTerm": "Intravenous pyelogram IVP",
+        "officialSpanish": "Pielografía Intravenosa",
+        "backupTerms": [
+            "P ielograma intravenoso"
+        ],
+        "otherTerms": [
+            "U rografía excretora"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_kidney_failure",
+        "slug": "urinary-kidney-failure",
+        "system": "urinary",
+        "termType": "condition",
+        "englishTerm": "Kidney failure",
+        "officialSpanish": "Insuficiencia renal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_kidney_stones",
+        "slug": "urinary-kidney-stones",
+        "system": "urinary",
+        "termType": "condition",
+        "englishTerm": "Kidney stones",
+        "officialSpanish": "Cálculos",
+        "backupTerms": [
+            "Piedras en el riñón"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_lifestyle_changes",
+        "slug": "urinary-lifestyle-changes",
+        "system": "urinary",
+        "termType": "treatment",
+        "englishTerm": "Lifestyle changes",
+        "officialSpanish": "Cambios de estilo de vida",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_lithotripsy",
+        "slug": "urinary-lithotripsy",
+        "system": "urinary",
+        "termType": "procedure",
+        "englishTerm": "Lithotripsy",
+        "officialSpanish": "Litotrisia",
+        "backupTerms": [
+            "Litotripsia"
+        ],
+        "otherTerms": [
+            "Romper piedras en los riñones con ondas de choque"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_lithroscopy",
+        "slug": "urinary-lithroscopy",
+        "system": "urinary",
+        "termType": "procedure",
+        "englishTerm": "Lithroscopy",
+        "officialSpanish": "Litroscopía",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_nephrologist",
+        "slug": "urinary-nephrologist",
+        "system": "urinary",
+        "termType": "specialist",
+        "englishTerm": "Nephrologist",
+        "officialSpanish": "Nefrólogo",
+        "backupTerms": [
+            "Doctor de los riñones"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_pain_below_the_ribs",
+        "slug": "urinary-pain-below-the-ribs",
+        "system": "urinary",
+        "termType": "symptom",
+        "englishTerm": "Pain below the ribs",
+        "officialSpanish": "Dolor debajo de las costillas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_peritoneal_dialysis",
+        "slug": "urinary-peritoneal-dialysis",
+        "system": "urinary",
+        "termType": "treatment",
+        "englishTerm": "Peritoneal dialysis",
+        "officialSpanish": "Diálisis peritoneal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_prostatitis",
+        "slug": "urinary-prostatitis",
+        "system": "urinary",
+        "termType": "condition",
+        "englishTerm": "Prostatitis",
+        "officialSpanish": "Prostatitis",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_renal_dialysis",
+        "slug": "urinary-renal-dialysis",
+        "system": "urinary",
+        "termType": "treatment",
+        "englishTerm": "Renal dialysis",
+        "officialSpanish": "Diálisis renal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_shakiness",
+        "slug": "urinary-shakiness",
+        "system": "urinary",
+        "termType": "other",
+        "englishTerm": "Shakiness",
+        "officialSpanish": "Temblor",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_sphincter_muscle",
+        "slug": "urinary-sphincter-muscle",
+        "system": "urinary",
+        "termType": "anatomy",
+        "englishTerm": "Sphincter muscle",
+        "officialSpanish": "Músculo del esfínter",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_ureter",
+        "slug": "urinary-ureter",
+        "system": "urinary",
+        "termType": "anatomy",
+        "englishTerm": "Ureter",
+        "officialSpanish": "Uréter",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_urethra",
+        "slug": "urinary-urethra",
+        "system": "urinary",
+        "termType": "anatomy",
+        "englishTerm": "Urethra",
+        "officialSpanish": "Uretra",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_urinary_tract_infection",
+        "slug": "urinary-urinary-tract-infection",
+        "system": "urinary",
+        "termType": "condition",
+        "englishTerm": "Urinary tract infection",
+        "officialSpanish": "Infección urinaria",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_urine_analysis",
+        "slug": "urinary-urine-analysis",
+        "system": "urinary",
+        "termType": "test",
+        "englishTerm": "Urine analysis",
+        "officialSpanish": "Análisis de orina",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_urine_test",
+        "slug": "urinary-urine-test",
+        "system": "urinary",
+        "termType": "test",
+        "englishTerm": "Urine test",
+        "officialSpanish": "Examen de orina",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_urinary_urologist",
+        "slug": "urinary-urologist",
+        "system": "urinary",
+        "termType": "specialist",
+        "englishTerm": "Urologist",
+        "officialSpanish": "Urólogo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_amniotic_sac",
+        "slug": "female_reproduction-amniotic-sac",
+        "system": "female_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Amniotic sac",
+        "officialSpanish": "Saco amniótico",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_bloody_discharge",
+        "slug": "female_reproduction-bloody-discharge",
+        "system": "female_reproduction",
+        "termType": "symptom",
+        "englishTerm": "Bloody discharge",
+        "officialSpanish": "Descarga sangrienta",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_breast_cancer",
+        "slug": "female_reproduction-breast-cancer",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Breast cancer",
+        "officialSpanish": "Cáncer de mama",
+        "backupTerms": [
+            "Cancer de senos"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_cervix",
+        "slug": "female_reproduction-cervix",
+        "system": "female_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Cervix",
+        "officialSpanish": "Cérvix",
+        "backupTerms": [
+            "Cuello del útero"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_cesarean_section",
+        "slug": "female_reproduction-cesarean-section",
+        "system": "female_reproduction",
+        "termType": "procedure",
+        "englishTerm": "Cesarean section",
+        "officialSpanish": "Cesárea",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_conception",
+        "slug": "female_reproduction-conception",
+        "system": "female_reproduction",
+        "termType": "other",
+        "englishTerm": "Conception",
+        "officialSpanish": "Concepción",
+        "backupTerms": [
+            "Engendrado"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_dilation_and_curettage_d_and_c",
+        "slug": "female_reproduction-dilation-and-curettage-d-and-c",
+        "system": "female_reproduction",
+        "termType": "procedure",
+        "englishTerm": "Dilation & curettage (d&c)",
+        "officialSpanish": "Dilatación y Curetaje",
+        "backupTerms": [
+            "Raspado / Legrado"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_ectopic_tubal_pregnancy",
+        "slug": "female_reproduction-ectopic-tubal-pregnancy",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Ectopic (tubal) pregnancy",
+        "officialSpanish": "Embarazo ectópico",
+        "backupTerms": [
+            "Embarazo tubario"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_endometrium",
+        "slug": "female_reproduction-endometrium",
+        "system": "female_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Endometrium",
+        "officialSpanish": "Endometrio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_epidural",
+        "slug": "female_reproduction-epidural",
+        "system": "female_reproduction",
+        "termType": "other",
+        "englishTerm": "Epidural",
+        "officialSpanish": "Epidural",
+        "backupTerms": [
+            "Peridural"
+        ],
+        "otherTerms": [
+            "Raquia",
+            "Raquidia"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_fallopian_tubes",
+        "slug": "female_reproduction-fallopian-tubes",
+        "system": "female_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Fallopian tubes",
+        "officialSpanish": "Trompa de falopio",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_feeling_dizzy_or_faint",
+        "slug": "female_reproduction-feeling-dizzy-or-faint",
+        "system": "female_reproduction",
+        "termType": "symptom",
+        "englishTerm": "Feeling dizzy or faint",
+        "officialSpanish": "Sentirse mareado o desmayado",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_female_infertility",
+        "slug": "female_reproduction-female-infertility",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Female infertility",
+        "officialSpanish": "Infertilidad femenina",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_fetal_monitor",
+        "slug": "female_reproduction-fetal-monitor",
+        "system": "female_reproduction",
+        "termType": "test",
+        "englishTerm": "Fetal monitor",
+        "officialSpanish": "Monitor fetal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_fibroids",
+        "slug": "female_reproduction-fibroids",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Fibroids",
+        "officialSpanish": "Fibromas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_genetic_counseling",
+        "slug": "female_reproduction-genetic-counseling",
+        "system": "female_reproduction",
+        "termType": "treatment",
+        "englishTerm": "Genetic counseling",
+        "officialSpanish": "Asesoramiento genético",
+        "backupTerms": [
+            "Consulta génetica"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_gynecologist",
+        "slug": "female_reproduction-gynecologist",
+        "system": "female_reproduction",
+        "termType": "specialist",
+        "englishTerm": "Gynecologist",
+        "officialSpanish": "Ginecólogo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_hysterectomy",
+        "slug": "female_reproduction-hysterectomy",
+        "system": "female_reproduction",
+        "termType": "procedure",
+        "englishTerm": "Hysterectomy",
+        "officialSpanish": "Histerectomía",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_mammogram",
+        "slug": "female_reproduction-mammogram",
+        "system": "female_reproduction",
+        "termType": "test",
+        "englishTerm": "Mammogram",
+        "officialSpanish": "Mamograma",
+        "backupTerms": [
+            "Mamografía"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_miscarriage",
+        "slug": "female_reproduction-miscarriage",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Miscarriage",
+        "officialSpanish": "Aborto espontáneo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_ovarian_cyst",
+        "slug": "female_reproduction-ovarian-cyst",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Ovarian cyst",
+        "officialSpanish": "Quiste de Ovario",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_pap_smear",
+        "slug": "female_reproduction-pap-smear",
+        "system": "female_reproduction",
+        "termType": "test",
+        "englishTerm": "Pap smear",
+        "officialSpanish": "Prueba de papanicolaou",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_plug",
+        "slug": "female_reproduction-plug",
+        "system": "female_reproduction",
+        "termType": "other",
+        "englishTerm": "Plug",
+        "officialSpanish": "Tapón",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_sexually_transmitted_disease",
+        "slug": "female_reproduction-sexually-transmitted-disease",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Sexually transmitted disease",
+        "officialSpanish": "Enfermedad de transmisión sexual",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_sexually_transmitted_diseases_std_s",
+        "slug": "female_reproduction-sexually-transmitted-diseases-std-s",
+        "system": "female_reproduction",
+        "termType": "other",
+        "englishTerm": "Sexually transmitted diseases (STD’s)",
+        "officialSpanish": "Enfermedades de transmisión sexual",
+        "backupTerms": [
+            "Enfermedades venéreas"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_spotting",
+        "slug": "female_reproduction-spotting",
+        "system": "female_reproduction",
+        "termType": "symptom",
+        "englishTerm": "Spotting",
+        "officialSpanish": "Sangrado de implantación",
+        "backupTerms": [
+            "Manchas sanguineas"
+        ],
+        "otherTerms": [
+            "Manchas"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_ultrasound",
+        "slug": "female_reproduction-ultrasound",
+        "system": "female_reproduction",
+        "termType": "test",
+        "englishTerm": "Ultrasound",
+        "officialSpanish": "Ultrasonido",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_umbilical_cord",
+        "slug": "female_reproduction-umbilical-cord",
+        "system": "female_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Umbilical cord",
+        "officialSpanish": "Cordón umbilical",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_vaginal_infection",
+        "slug": "female_reproduction-vaginal-infection",
+        "system": "female_reproduction",
+        "termType": "condition",
+        "englishTerm": "Vaginal infection",
+        "officialSpanish": "Infección vaginal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_female_reproduction_water_broke",
+        "slug": "female_reproduction-water-broke",
+        "system": "female_reproduction",
+        "termType": "general_phrase",
+        "englishTerm": "Water broke",
+        "officialSpanish": "Se rompio la fuente",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_bladder",
+        "slug": "male_reproduction-bladder",
+        "system": "male_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Bladder",
+        "officialSpanish": "Vejiga",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_duct_blockages",
+        "slug": "male_reproduction-duct-blockages",
+        "system": "male_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Duct blockages",
+        "officialSpanish": "Bloqueos del conducto",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_erectile_disfunction",
+        "slug": "male_reproduction-erectile-disfunction",
+        "system": "male_reproduction",
+        "termType": "condition",
+        "englishTerm": "Erectile disfunction",
+        "officialSpanish": "Disfunción eréctil",
+        "backupTerms": [
+            "Impotencia sexual"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_male_infertility",
+        "slug": "male_reproduction-male-infertility",
+        "system": "male_reproduction",
+        "termType": "condition",
+        "englishTerm": "Male infertility",
+        "officialSpanish": "Infertilidad masculina",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_mumps",
+        "slug": "male_reproduction-mumps",
+        "system": "male_reproduction",
+        "termType": "condition",
+        "englishTerm": "Mumps",
+        "officialSpanish": "Paperas",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_prostrate_cancer",
+        "slug": "male_reproduction-prostrate-cancer",
+        "system": "male_reproduction",
+        "termType": "condition",
+        "englishTerm": "Prostrate cancer",
+        "officialSpanish": "Cáncer de próstata",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_prostrate_gland",
+        "slug": "male_reproduction-prostrate-gland",
+        "system": "male_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Prostrate gland",
+        "officialSpanish": "Glándula prostática",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_scrotum",
+        "slug": "male_reproduction-scrotum",
+        "system": "male_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Scrotum",
+        "officialSpanish": "Escroto",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_semen_analysis",
+        "slug": "male_reproduction-semen-analysis",
+        "system": "male_reproduction",
+        "termType": "test",
+        "englishTerm": "Semen analysis",
+        "officialSpanish": "Análisis de semen",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_seminal_vesicle",
+        "slug": "male_reproduction-seminal-vesicle",
+        "system": "male_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Seminal vesicle",
+        "officialSpanish": "Vesícula seminal",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_testicular_cancer",
+        "slug": "male_reproduction-testicular-cancer",
+        "system": "male_reproduction",
+        "termType": "test",
+        "englishTerm": "Testicular cancer",
+        "officialSpanish": "Cáncer testicular",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_undescended_testicle",
+        "slug": "male_reproduction-undescended-testicle",
+        "system": "male_reproduction",
+        "termType": "test",
+        "englishTerm": "Undescended testicle",
+        "officialSpanish": "Testículo no descendido",
+        "backupTerms": [
+            "Criptorquidismo"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_vas_deferens",
+        "slug": "male_reproduction-vas-deferens",
+        "system": "male_reproduction",
+        "termType": "anatomy",
+        "englishTerm": "Vas deferens",
+        "officialSpanish": "Conducto deferente",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_male_reproduction_vasectomy",
+        "slug": "male_reproduction-vasectomy",
+        "system": "male_reproduction",
+        "termType": "procedure",
+        "englishTerm": "Vasectomy",
+        "officialSpanish": "Vasectomía",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_breastfeed",
+        "slug": "miscellaneous-breastfeed",
+        "system": "miscellaneous",
+        "termType": "general_phrase",
+        "englishTerm": "Breastfeed",
+        "officialSpanish": "Amamantar",
+        "backupTerms": [
+            "Dar el p echo"
+        ],
+        "otherTerms": [
+            "Lactar",
+            "Dar la teta (Argentina)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_breeched",
+        "slug": "miscellaneous-breeched",
+        "system": "miscellaneous",
+        "termType": "general_phrase",
+        "englishTerm": "Breeched",
+        "officialSpanish": "Está de pompis",
+        "backupTerms": [
+            "Está sentado"
+        ],
+        "otherTerms": [
+            "Está atravesado (Argentina)",
+            "Alreves"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_bump_lump",
+        "slug": "miscellaneous-bump-lump",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Bump - Lump",
+        "officialSpanish": "Protuberancia",
+        "backupTerms": [
+            "Chichón (Argentina -México)"
+        ],
+        "otherTerms": [
+            "bulto",
+            "Nudo (en la garganta)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_butt",
+        "slug": "miscellaneous-butt",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Butt",
+        "officialSpanish": "Glúteo mayor",
+        "backupTerms": [
+            "Pompis",
+            "Trasero"
+        ],
+        "otherTerms": [
+            "Nalgas",
+            "Cola (Argentina)",
+            "culo (Spain)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_catheter",
+        "slug": "miscellaneous-catheter",
+        "system": "miscellaneous",
+        "termType": "procedure",
+        "englishTerm": "Catheter",
+        "officialSpanish": "catéter",
+        "backupTerms": [
+            "Sonda"
+        ],
+        "otherTerms": [
+            "Manguerita",
+            "Popotito"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_epidural",
+        "slug": "miscellaneous-epidural",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Epidural",
+        "officialSpanish": "Epidural",
+        "backupTerms": [
+            "Peridural"
+        ],
+        "otherTerms": [
+            "Raquia",
+            "Raquidia"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_give_birth",
+        "slug": "miscellaneous-give-birth",
+        "system": "miscellaneous",
+        "termType": "general_phrase",
+        "englishTerm": "Give Birth",
+        "officialSpanish": "Dar a Luz",
+        "backupTerms": [
+            "Parir"
+        ],
+        "otherTerms": [
+            "Aliviarse (México)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_heart_attack",
+        "slug": "miscellaneous-heart-attack",
+        "system": "miscellaneous",
+        "termType": "anatomy",
+        "englishTerm": "Heart attack",
+        "officialSpanish": "Infarto",
+        "backupTerms": [
+            "Paro Cardiaco"
+        ],
+        "otherTerms": [
+            "Ataque al Corazón"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_intravenous_infusion",
+        "slug": "miscellaneous-intravenous-infusion",
+        "system": "miscellaneous",
+        "termType": "treatment",
+        "englishTerm": "Intravenous Infusion",
+        "officialSpanish": "Infusión Intravenosa",
+        "backupTerms": [
+            "Suero"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_leads_electrodes",
+        "slug": "miscellaneous-leads-electrodes",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Leads / Electrodes",
+        "officialSpanish": "Electrodo",
+        "backupTerms": [
+            "calcomanía"
+        ],
+        "otherTerms": [
+            "Adhesivo",
+            "Conductor Derivación"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_lump",
+        "slug": "miscellaneous-lump",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Lump",
+        "officialSpanish": "Bulto",
+        "backupTerms": [
+            "Chichón (México)"
+        ],
+        "otherTerms": [
+            "Chipote",
+            "Masa"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_medication",
+        "slug": "miscellaneous-medication",
+        "system": "miscellaneous",
+        "termType": "treatment",
+        "englishTerm": "Medication",
+        "officialSpanish": "Medicamento",
+        "backupTerms": [
+            "Medicina"
+        ],
+        "otherTerms": [
+            "Remedios (Argentina)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_menstruation",
+        "slug": "miscellaneous-menstruation",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Menstruation",
+        "officialSpanish": "Menstruación",
+        "backupTerms": [
+            "Regla"
+        ],
+        "otherTerms": [
+            "Periodo"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_miscarriage",
+        "slug": "miscellaneous-miscarriage",
+        "system": "miscellaneous",
+        "termType": "condition",
+        "englishTerm": "Miscarriage",
+        "officialSpanish": "Aborto espontáneo",
+        "backupTerms": [
+            "A borto n atural"
+        ],
+        "otherTerms": [
+            "Pérdida de e mbarazo"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_mole",
+        "slug": "miscellaneous-mole",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Mole",
+        "officialSpanish": "Lunar",
+        "backupTerms": [
+            "Verruga"
+        ],
+        "otherTerms": [
+            "Mancha"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_operation_room",
+        "slug": "miscellaneous-operation-room",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Operation Room",
+        "officialSpanish": "Quirófano",
+        "backupTerms": [
+            "Sala de Operación"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_pregnant",
+        "slug": "miscellaneous-pregnant",
+        "system": "miscellaneous",
+        "termType": "general_phrase",
+        "englishTerm": "Pregnant",
+        "officialSpanish": "Estar embarazada",
+        "backupTerms": [
+            "Estar Preñada"
+        ],
+        "otherTerms": [
+            "Estar en cinta"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_remove",
+        "slug": "miscellaneous-remove",
+        "system": "miscellaneous",
+        "termType": "treatment",
+        "englishTerm": "Remove",
+        "officialSpanish": "Extirpar",
+        "backupTerms": [
+            "Sacar"
+        ],
+        "otherTerms": [
+            "Quitar",
+            "Extraer"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_sprain",
+        "slug": "miscellaneous-sprain",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Sprain",
+        "officialSpanish": "Torcedura",
+        "backupTerms": [
+            "Esquince"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_still_birth",
+        "slug": "miscellaneous-still-birth",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Still-birth",
+        "officialSpanish": "Mortinato",
+        "backupTerms": [
+            "Muerte fetal"
+        ],
+        "otherTerms": [
+            "Parto de feto muerto",
+            "Pé rdida Fetal"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_strain",
+        "slug": "miscellaneous-strain",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Strain",
+        "officialSpanish": "Esfuerzo",
+        "backupTerms": [
+            "Forzar"
+        ],
+        "otherTerms": [
+            "Esforzarse"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_ultrasound",
+        "slug": "miscellaneous-ultrasound",
+        "system": "miscellaneous",
+        "termType": "test",
+        "englishTerm": "Ultrasound",
+        "officialSpanish": "Sonograma",
+        "backupTerms": [
+            "Ecografía"
+        ],
+        "otherTerms": [
+            "Ultrasonido"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_urinal",
+        "slug": "miscellaneous-urinal",
+        "system": "miscellaneous",
+        "termType": "other",
+        "englishTerm": "Urinal",
+        "officialSpanish": "Bacinica",
+        "backupTerms": [
+            "Bacín"
+        ],
+        "otherTerms": [
+            "Nica (Mé xico)",
+            "Pato (Colombia)",
+            "Papagayo (Arg .) Mingitorio Orinal"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_uterus",
+        "slug": "miscellaneous-uterus",
+        "system": "miscellaneous",
+        "termType": "anatomy",
+        "englishTerm": "Uterus",
+        "officialSpanish": "Útero",
+        "backupTerms": [
+            "Matriz"
+        ],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_water_broke",
+        "slug": "miscellaneous-water-broke",
+        "system": "miscellaneous",
+        "termType": "general_phrase",
+        "englishTerm": "Water broke",
+        "officialSpanish": "Se rompió la fuente",
+        "backupTerms": [
+            "Se rompió la bolsa amniótica"
+        ],
+        "otherTerms": [
+            "Rompió aguas (España)",
+            "Romper b olsa (A rgentina)"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_stroke",
+        "slug": "miscellaneous-stroke",
+        "system": "miscellaneous",
+        "termType": "condition",
+        "englishTerm": "Stroke",
+        "officialSpanish": "Embolia cerebral",
+        "backupTerms": [
+            "Apoplejía"
+        ],
+        "otherTerms": [
+            "Ataque súbito",
+            "Choque",
+            "golpe"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_stress",
+        "slug": "miscellaneous-stress",
+        "system": "miscellaneous",
+        "termType": "symptom",
+        "englishTerm": "Stress",
+        "officialSpanish": "estrés",
+        "backupTerms": [
+            "Tensió n emocional"
+        ],
+        "otherTerms": [
+            "Compulsión"
+        ],
+        "difficulty": 2,
+        "active": false
+    },
+    {
+        "id": "kc_miscellaneous_stress_test",
+        "slug": "miscellaneous-stress-test",
+        "system": "miscellaneous",
+        "termType": "test",
+        "englishTerm": "Stress test",
+        "officialSpanish": "Prueba de esfuerzo",
+        "backupTerms": [],
+        "otherTerms": [],
+        "difficulty": 2,
+        "active": false
+    }
+]

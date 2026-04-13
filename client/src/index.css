@@ -2,10 +2,6 @@
   font-family: "Avenir Next", "Trebuchet MS", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #17324b;
-  background:
-    radial-gradient(circle at top, rgba(255, 247, 224, 0.9), transparent 40%),
-    linear-gradient(180deg, #f3f8fb 0%, #dcebf2 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,6 +10,57 @@
   --text-soft: #456072;
   --accent-strong: #b64633;
   --card-text: #f7fbff;
+  --page-text: #17324b;
+  --page-background:
+    radial-gradient(circle at top, rgba(255, 247, 224, 0.9), transparent 40%),
+    linear-gradient(180deg, #f3f8fb 0%, #dcebf2 100%);
+  --header-surface: rgba(243, 248, 251, 0.72);
+  --nav-link-surface: rgba(255, 255, 255, 0.62);
+  --nav-link-active: rgba(22, 95, 146, 0.12);
+  --nav-link-active-border: rgba(22, 95, 146, 0.2);
+  --toggle-surface: rgba(255, 255, 255, 0.82);
+  --toggle-hover: rgba(255, 255, 255, 0.95);
+  --card-gradient-top: rgba(255, 255, 255, 0.92);
+  --card-gradient-bottom: rgba(255, 255, 255, 0.8);
+  --card-accent-a: rgba(22, 95, 146, 0.12);
+  --card-accent-b: rgba(15, 122, 114, 0.08);
+  --input-surface: rgba(255, 255, 255, 0.88);
+  --button-secondary: rgba(23, 50, 75, 0.08);
+  --feedback-note-surface: rgba(22, 95, 146, 0.08);
+  --border-soft: rgba(23, 50, 75, 0.08);
+  --border-strong: rgba(23, 50, 75, 0.14);
+  --shadow-color: rgba(23, 40, 56, 0.09);
+  --orb-top: rgba(22, 95, 146, 0.12);
+  --orb-bottom: rgba(239, 123, 69, 0.14);
+}
+
+:root[data-theme="dark"] {
+  --text-main: #eef4ff;
+  --text-soft: #aebbd0;
+  --accent-strong: #ff9b6b;
+  --card-text: #f8fbff;
+  --page-text: #eef4ff;
+  --page-background:
+    radial-gradient(circle at top, rgba(16, 79, 108, 0.3), transparent 38%),
+    linear-gradient(180deg, #09131d 0%, #0d1b2a 45%, #12263a 100%);
+  --header-surface: rgba(9, 19, 29, 0.78);
+  --nav-link-surface: rgba(255, 255, 255, 0.04);
+  --nav-link-active: rgba(86, 154, 255, 0.14);
+  --nav-link-active-border: rgba(126, 177, 255, 0.26);
+  --toggle-surface: rgba(255, 255, 255, 0.06);
+  --toggle-hover: rgba(255, 255, 255, 0.12);
+  --card-gradient-top: rgba(17, 28, 41, 0.96);
+  --card-gradient-bottom: rgba(14, 23, 34, 0.92);
+  --card-accent-a: rgba(64, 125, 186, 0.14);
+  --card-accent-b: rgba(15, 122, 114, 0.08);
+  --input-surface: rgba(255, 255, 255, 0.05);
+  --button-secondary: rgba(255, 255, 255, 0.08);
+  --feedback-note-surface: rgba(86, 154, 255, 0.1);
+  --border-soft: rgba(174, 187, 208, 0.12);
+  --border-strong: rgba(174, 187, 208, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --orb-top: rgba(44, 128, 181, 0.16);
+  --orb-bottom: rgba(239, 123, 69, 0.12);
 }
 
 * {
@@ -27,6 +74,11 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
+  color: var(--page-text);
+  background: var(--page-background);
+  transition:
+    color 180ms ease,
+    background 180ms ease;
 }
 
 body::before,
@@ -43,7 +95,7 @@ body::before {
   right: -6rem;
   width: 20rem;
   height: 20rem;
-  background: rgba(22, 95, 146, 0.12);
+  background: var(--orb-top);
 }
 
 body::after {
@@ -51,7 +103,7 @@ body::after {
   left: -5rem;
   width: 18rem;
   height: 18rem;
-  background: rgba(239, 123, 69, 0.14);
+  background: var(--orb-bottom);
 }
 
 a {

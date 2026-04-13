@@ -13,8 +13,8 @@
   gap: 1rem;
   padding: 1rem 1.5rem;
   backdrop-filter: blur(18px);
-  background: rgba(243, 248, 251, 0.72);
-  border-bottom: 1px solid rgba(23, 50, 75, 0.08);
+  background: var(--header-surface);
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .brand-link {
@@ -37,14 +37,35 @@
   text-decoration: none;
   font-weight: 700;
   color: var(--text-soft);
-  background: rgba(255, 255, 255, 0.62);
-  border: 1px solid rgba(23, 50, 75, 0.1);
+  background: var(--nav-link-surface);
+  border: 1px solid var(--border-soft);
 }
 
 .top-nav-link.active {
   color: var(--text-main);
-  background: rgba(22, 95, 146, 0.12);
-  border-color: rgba(22, 95, 146, 0.2);
+  background: var(--nav-link-active);
+  border-color: var(--nav-link-active-border);
+}
+
+.theme-toggle {
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--toggle-surface);
+  color: var(--text-main);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    border-color 180ms ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  transform: translateY(-1px);
+  background: var(--toggle-hover);
 }
 
 .home-shell {
@@ -197,10 +218,10 @@
   padding: 1.4rem;
   border-radius: 1.5rem;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.8)),
-    linear-gradient(135deg, rgba(22, 95, 146, 0.12), rgba(15, 122, 114, 0.08));
-  border: 1px solid rgba(23, 50, 75, 0.08);
-  box-shadow: 0 22px 50px rgba(23, 40, 56, 0.09);
+    linear-gradient(180deg, var(--card-gradient-top), var(--card-gradient-bottom)),
+    linear-gradient(135deg, var(--card-accent-a), var(--card-accent-b));
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 22px 50px var(--shadow-color);
 }
 
 .card-kicker {
@@ -261,8 +282,8 @@
   width: 100%;
   padding: 0.95rem 1rem;
   border-radius: 1rem;
-  border: 1px solid rgba(23, 50, 75, 0.14);
-  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--border-strong);
+  background: var(--input-surface);
   color: var(--text-main);
   font: inherit;
 }
@@ -291,7 +312,7 @@
 
 .secondary-button {
   color: var(--text-main);
-  background: rgba(23, 50, 75, 0.08);
+  background: var(--button-secondary);
 }
 
 .primary-button:disabled,
@@ -311,7 +332,7 @@
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 1rem;
-  background: rgba(22, 95, 146, 0.08);
+  background: var(--feedback-note-surface);
 }
 
 .band-pill {
@@ -356,7 +377,7 @@
 .mastery-table td {
   padding: 0.9rem 0.75rem;
   text-align: left;
-  border-bottom: 1px solid rgba(23, 50, 75, 0.08);
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .mastery-table th {
