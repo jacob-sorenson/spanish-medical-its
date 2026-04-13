@@ -1,44 +1,42 @@
-
-
 # Spanish ITS TODO
 
 ## 1. Project foundation
-- [ ] Write a one-paragraph project description for the finals project
-- [ ] Define the MVP scope: single-user adaptive tutor for Spanish medical terminology
+- [x] Write a one-paragraph project description for the finals project
+- [x] Define the MVP scope: single-user adaptive tutor for Spanish medical terminology
 - [ ] Choose the first 3 medical systems for the MVP dataset
-- [ ] Confirm the stack: React + TypeScript frontend, Express + TypeScript backend
-- [ ] Set up the base repo structure for client, server, and shared types
+- [x] Confirm the stack: React + TypeScript frontend, Express + TypeScript backend
+- [x] Set up the base repo structure for client, server, and shared types
 
 ## 2. Content and knowledge components
-- [ ] Review the hospital glossary PDF and choose the first 25-30 terms
-- [ ] Group selected terms by medical system
-- [ ] Decide the `termType` values to use consistently (anatomy, symptom, condition, procedure, test, specialist, treatment, general_phrase, other)
-- [ ] Create the initial Knowledge Component schema
-- [ ] Convert the first glossary terms into KC seed data
-- [ ] Record official Spanish terms, backup terms, and other alternate terms for each KC
+- [x] Review the hospital glossary PDF and choose the first 25-30 terms
+- [x] Group selected terms by medical system
+- [x] Decide the `termType` values to use consistently (anatomy, symptom, condition, procedure, test, specialist, treatment, general_phrase, other)
+- [x] Create the initial Knowledge Component schema
+- [x] Convert the first glossary terms into KC seed data
+- [x] Record official Spanish terms, backup terms, and other alternate terms for each KC
 - [ ] Add source metadata for each KC (document title, page, section)
-- [ ] Assign an initial difficulty value to each KC
+- [x] Assign an initial difficulty value to each KC
 
 ## 3. BKT model
-- [ ] Define the BKT parameter model (`pInit`, `pLearn`, `pSlip`, `pGuess`)
-- [ ] Decide the default BKT parameter values for MVP
-- [ ] Create the learner mastery state model per KC
+- [x] Define the BKT parameter model (`pInit`, `pLearn`, `pSlip`, `pGuess`)
+- [x] Decide the default BKT parameter values for MVP
+- [x] Create the learner mastery state model per KC
 - [ ] Implement the BKT update function for correct responses
 - [ ] Implement the BKT update function for incorrect responses
 - [ ] Test the BKT update function with sample terms and sample answers
-- [ ] Decide mastery bands for the dashboard (weak, developing, strong)
+- [x] Decide mastery bands for the dashboard (weak, developing, strong)
 
 ## 4. Practice and scoring
-- [ ] Define the first practice item types
-  - [ ] typed English -> Spanish recall
-  - [ ] multiple choice English -> Spanish
-  - [ ] official term vs alternate term recognition
-- [ ] Create the PracticeItem model
+- [x] Define the first practice item types
+  - [x] typed English -> Spanish recall
+  - [x] multiple choice English -> Spanish
+  - [x] official term vs alternate term recognition
+- [x] Create the PracticeItem model
 - [ ] Decide the scoring policy for official terms vs alternate terms
 - [ ] Implement answer normalization (case, whitespace, accent handling)
 - [ ] Implement response scoring logic
 - [ ] Decide how accepted alternate answers should affect BKT in MVP
-- [ ] Create a starter practice item set for the initial KCs
+- [x] Create a starter practice item set for the initial KCs
 
 ## 5. Adaptive loop
 - [ ] Implement KC selection logic for the next question
@@ -79,11 +77,11 @@
 - [ ] Decide when the tutor should explain vs hint vs show the answer
 
 ## 9. Storage and persistence
-- [ ] Decide how KC seed data will be stored
-- [ ] Decide how learner mastery state will be stored
-- [ ] Decide how attempt history will be stored
+- [x] Decide how KC seed data will be stored
+- [x] Decide how learner mastery state will be stored
+- [x] Decide how attempt history will be stored
 - [ ] Seed the initial KC dataset
-- [ ] Seed default BKT parameters
+- [x] Seed default BKT parameters
 - [ ] Verify progress persists across app reloads
 
 ## 10. Demo and presentation
