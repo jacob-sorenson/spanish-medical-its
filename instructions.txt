@@ -3,3 +3,4 @@
 ./dev-servers.sh stop
 ./dev-servers.sh restart
 ./dev-servers.sh status
+node resetLearningProgress.js

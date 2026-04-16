@@ -191,6 +191,18 @@ npm run build
 npm start
 ```
 
+### Reset learner progress
+
+From the project root:
+
+```bash
+node resetLearningProgress.js
+```
+
+This resets:
+- `server/src/data/learner/attemptHistory.json` back to `[]`
+- `server/src/data/learner/learnerState.json` back to the fresh baseline for all active knowledge components
+
 ## Troubleshooting
 
 ### The frontend loads but no backend data appears
