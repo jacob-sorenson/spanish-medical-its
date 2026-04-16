@@ -35,6 +35,21 @@ export interface SubmitPracticeAnswerResult {
   attemptRecord: AttemptRecord;
 }
 
+export interface GetNextPracticeItemResult {
+  kc: KnowledgeComponent;
+  practiceItem: PracticeItem;
+  learnerState: LearnerKCState;
+  params: BKTParameters;
+  reason: "new_term" | "low_mastery";
+}
+
+interface PracticeCandidate {
+  kc: KnowledgeComponent;
+  learnerState: LearnerKCState;
+  params: BKTParameters;
+  practiceItems: PracticeItem[];
+}
+
 async function readJsonFile<T>(filePath: string): Promise<T> {
   const raw = await fs.readFile(filePath, "utf-8");
   return JSON.parse(raw) as T;
@@ -103,6 +118,7 @@ function getBKTParametersByKCId(paramsList: BKTParameters[], kcId: string): BKTP
   return params;
 }
 
+
 function getLearnerStateByKCId(
   learnerStateList: LearnerKCState[],
   kcId: string
@@ -116,6 +132,71 @@ function getLearnerStateByKCId(
   return {
     learnerState: learnerStateList[index],
     index,
+  };
+}
+
+function getActivePracticeItemsByKCId(
+  practiceItems: PracticeItem[],
+  kcId: string
+): PracticeItem[] {
+  return practiceItems.filter((item) => item.kcId === kcId && item.active);
+}
+
+function comparePracticeCandidates(a: PracticeCandidate, b: PracticeCandidate): number {
+  const aIsNew = a.learnerState.opportunities === 0;
+  const bIsNew = b.learnerState.opportunities === 0;
+
+  if (aIsNew && !bIsNew) return -1;
+  if (!aIsNew && bIsNew) return 1;
+
+  if (a.learnerState.masteryProbability !== b.learnerState.masteryProbability) {
+    return a.learnerState.masteryProbability - b.learnerState.masteryProbability;
+  }
+
+  return a.kc.englishTerm.localeCompare(b.kc.englishTerm);
+}
+
+
+export async function getNextPracticeItem(): Promise<GetNextPracticeItemResult> {
+  const [kcs, paramsList, practiceItems, learnerStateList] = await Promise.all([
+    loadKnowledgeComponents(),
+    loadBKTParameters(),
+    loadPracticeItems(),
+    loadLearnerState(),
+  ]);
+
+  const candidates: PracticeCandidate[] = kcs
+    .filter((kc) => kc.active)
+    .map((kc) => {
+      const { learnerState } = getLearnerStateByKCId(learnerStateList, kc.id);
+      const params = getBKTParametersByKCId(paramsList, kc.id);
+      const activePracticeItems = getActivePracticeItemsByKCId(practiceItems, kc.id);
+
+      return {
+        kc,
+        learnerState,
+        params,
+        practiceItems: activePracticeItems,
+      };
+    })
+    .filter((candidate) => candidate.practiceItems.length > 0);
+
+  if (candidates.length === 0) {
+    throw new Error("No active practice candidates were found.");
+  }
+
+  candidates.sort(comparePracticeCandidates);
+
+  const selected = candidates[0];
+  const selectedPracticeItem = selected.practiceItems[0];
+  const reason = selected.learnerState.opportunities === 0 ? "new_term" : "low_mastery";
+
+  return {
+    kc: selected.kc,
+    practiceItem: selectedPracticeItem,
+    learnerState: selected.learnerState,
+    params: selected.params,
+    reason,
   };
 }
 

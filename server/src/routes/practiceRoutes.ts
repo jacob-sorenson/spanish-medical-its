@@ -2,9 +2,24 @@
 
 import { Router } from "express";
 
-import { submitPracticeAnswer } from "../services/practiceService";
+import { getNextPracticeItem, submitPracticeAnswer } from "../services/practiceService";
 
 const practiceRoutes = Router();
+
+practiceRoutes.get("/next", async (_req, res) => {
+  try {
+    const result = await getNextPracticeItem();
+
+    return res.status(200).json(result);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown error";
+
+    return res.status(500).json({
+      error: "Failed to get next practice item.",
+      details: message,
+    });
+  }
+});
 
 practiceRoutes.post("/submit", async (req, res) => {
   try {
