@@ -1,1 +1,12 @@
+node_modules/
+server/node_modules/
+client/node_modules/
+
+dist/
+server/dist/
+client/dist/
+
+.vite/
+*.log
+.env
 .DS_Store
