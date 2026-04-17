@@ -10,3 +10,6 @@ client/dist/
 *.log
 .env
 .DS_Store
+
+server/src/data/learner/learnerState.json
+server/src/data/learner/attemptHistory.json

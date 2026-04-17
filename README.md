@@ -191,6 +191,21 @@ npm run build
 npm start
 ```
 
+### Backend tests
+
+From the project root:
+
+```bash
+cd server
+npm test
+```
+
+These integration tests use Vitest and Supertest to verify:
+- `GET /api/practice/next`
+- `POST /api/practice/submit`
+
+They use the current JSON-backed storage during the test run and restore the learner data files after the tests finish.
+
 ### Reset learner progress
 
 From the project root:
@@ -199,9 +214,14 @@ From the project root:
 node resetLearningProgress.js
 ```
 
-This resets:
-- `server/src/data/learner/attemptHistory.json` back to `[]`
-- `server/src/data/learner/learnerState.json` back to the fresh baseline for all active knowledge components
+This copies the learner seed files into the live learner progress files:
+- `server/src/data/learner/learnerState.seed.json` -> `server/src/data/learner/learnerState.json`
+- `server/src/data/learner/attemptHistory.seed.json` -> `server/src/data/learner/attemptHistory.json`
+
+Behavior:
+- existing live learner files are overwritten
+- missing live learner files are created automatically
+- the script fails with a clear error if a seed file is missing or contains invalid JSON
 
 ## Troubleshooting
 
