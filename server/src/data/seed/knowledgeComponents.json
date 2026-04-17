@@ -76,7 +76,7 @@
         "slug": "cardiovascular-blood-vessels",
         "system": "cardiovascular",
         "termType": "anatomy",
-        "englishTerm": "Blood vessels",
+        "englishTerm": "Blood vessels - cardiovascular",
         "officialSpanish": "Vasos sanguíneos",
         "backupTerms": [
             "Arterias"
@@ -2404,7 +2404,7 @@
         "slug": "skin-blood-vessels",
         "system": "skin",
         "termType": "anatomy",
-        "englishTerm": "Blood vessels",
+        "englishTerm": "Blood vessels - skin",
         "officialSpanish": "Vasos sanguíneos",
         "backupTerms": [],
         "otherTerms": [],
