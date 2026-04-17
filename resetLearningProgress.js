@@ -4,61 +4,55 @@ const fs = require("fs");
 const path = require("path");
 
 const repoRoot = __dirname;
-const knowledgeComponentsPath = path.join(
-  repoRoot,
-  "server/src/data/seed/knowledgeComponents.json"
+const learnerDataDir = path.join(repoRoot, "server/src/data/learner");
+const learnerStateSeedPath = path.join(
+  learnerDataDir,
+  "learnerState.seed.json"
 );
-const bktParametersPath = path.join(
-  repoRoot,
-  "server/src/data/seed/bktParameters.json"
+const attemptHistorySeedPath = path.join(
+  learnerDataDir,
+  "attemptHistory.seed.json"
 );
 const learnerStatePath = path.join(
-  repoRoot,
-  "server/src/data/learner/learnerState.json"
+  learnerDataDir,
+  "learnerState.json"
 );
 const attemptHistoryPath = path.join(
-  repoRoot,
-  "server/src/data/learner/attemptHistory.json"
+  learnerDataDir,
+  "attemptHistory.json"
 );
 
-function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+function fail(message) {
+  console.error(`Reset failed: ${message}`);
+  process.exit(1);
+}
+
+function readSeedJson(filePath) {
+  if (!fs.existsSync(filePath)) {
+    fail(`Missing seed file: ${path.relative(repoRoot, filePath)}`);
+  }
+
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown JSON error";
+    fail(`Invalid JSON in seed file ${path.relative(repoRoot, filePath)}: ${message}`);
+  }
 }
 
 function writeJson(filePath, value) {
-  fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n");
+  fs.writeFileSync(filePath, JSON.stringify(value, null, 2) + "\n", "utf8");
+  console.log(`Wrote ${path.relative(repoRoot, filePath)}`);
 }
 
 function main() {
-  const kcs = readJson(knowledgeComponentsPath);
-  const bktParameters = readJson(bktParametersPath);
-  const pInitByKcId = new Map(
-    bktParameters.map((params) => [params.kcId, params.pInit])
-  );
+  const learnerStateSeed = readSeedJson(learnerStateSeedPath);
+  const attemptHistorySeed = readSeedJson(attemptHistorySeedPath);
 
-  const learnerState = kcs
-    .filter((kc) => kc.active)
-    .map((kc) => ({
-      kcId: kc.id,
-      masteryProbability: pInitByKcId.get(kc.id) ?? 0.2,
-      opportunities: 0,
-      correctCount: 0,
-      incorrectCount: 0,
-      lastPracticeAt: null,
-      hasViewedLearn: false,
-      firstViewedAt: null,
-      lastViewedAt: null,
-      learnViewCount: 0,
-    }));
+  writeJson(learnerStatePath, learnerStateSeed);
+  writeJson(attemptHistoryPath, attemptHistorySeed);
 
-  writeJson(learnerStatePath, learnerState);
-  writeJson(attemptHistoryPath, []);
-
-  console.log(
-    `Reset learner progress for ${learnerState.length} active knowledge components.`
-  );
-  console.log(`Updated ${path.relative(repoRoot, learnerStatePath)}`);
-  console.log(`Updated ${path.relative(repoRoot, attemptHistoryPath)}`);
+  console.log("Learner progress reset completed successfully.");
 }
 
 main();
