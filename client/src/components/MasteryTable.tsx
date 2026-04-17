@@ -5,6 +5,17 @@ type MasteryTableProps = {
   rows: DashboardKCRow[];
 };
 
+function formatLastPracticeAt(value: string | null) {
+  if (!value) {
+    return "Never practiced";
+  }
+
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: "medium",
+    timeStyle: "short",
+  }).format(new Date(value));
+}
+
 export function MasteryTable({ rows }: MasteryTableProps) {
   return (
     <section className="content-card">
@@ -19,6 +30,8 @@ export function MasteryTable({ rows }: MasteryTableProps) {
               <th>Spanish</th>
               <th>System</th>
               <th>Mastery</th>
+              <th>Attempts</th>
+              <th>Last Practice</th>
               <th>Band</th>
             </tr>
           </thead>
@@ -29,6 +42,8 @@ export function MasteryTable({ rows }: MasteryTableProps) {
                 <td>{row.officialSpanish}</td>
                 <td>{row.system.replaceAll("_", " ")}</td>
                 <td>{formatMastery(row.masteryProbability)}</td>
+                <td>{row.opportunities}</td>
+                <td>{formatLastPracticeAt(row.lastPracticeAt)}</td>
                 <td>
                   <span className={`band-pill ${row.band}`}>{row.band}</span>
                 </td>

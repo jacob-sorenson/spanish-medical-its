@@ -5,7 +5,7 @@ import { usePracticeSession } from "../hooks/usePracticeSession";
 export function PracticePage() {
   const {
     answer,
-    explanation,
+    error,
     feedback,
     isLoading,
     isSubmitting,
@@ -15,10 +15,21 @@ export function PracticePage() {
     loadNext,
   } = usePracticeSession();
 
-  if (isLoading || !prompt) {
+  if (!prompt) {
     return (
       <main className="page-shell content-shell">
-        <section className="content-card empty-state">Preparing your practice set...</section>
+        <section className="content-card empty-state">
+          {error ? (
+            <div className="stacked-state">
+              <p>{error}</p>
+              <button type="button" className="secondary-button" onClick={loadNext}>
+                Try Again
+              </button>
+            </div>
+          ) : (
+            "Preparing your practice set..."
+          )}
+        </section>
       </main>
     );
   }
@@ -32,9 +43,14 @@ export function PracticePage() {
           Answer one item at a time, then inspect the tutor feedback and mastery update.
         </p>
         <p className="page-caption">
-          Current term: {prompt.targetKc.englishTerm} → {prompt.targetKc.system.replaceAll("_", " ")}
+          Current term: {prompt.kc.englishTerm} → {prompt.kc.system.replaceAll("_", " ")}
         </p>
       </section>
+      {error ? (
+        <section className="content-card error-banner full-span">
+          <strong>Practice error:</strong> {error}
+        </section>
+      ) : null}
       <PracticeCard
         prompt={prompt}
         answer={answer}
@@ -42,9 +58,9 @@ export function PracticePage() {
         onSubmit={submitAnswer}
         onNext={loadNext}
         isSubmitting={isSubmitting}
-        hasFeedback={feedback !== null}
+        isLoadingNext={isLoading}
       />
-      <FeedbackPanel feedback={feedback} explanation={explanation} />
+      <FeedbackPanel feedback={feedback} />
     </main>
   );
 }
