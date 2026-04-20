@@ -50,6 +50,11 @@ interface PracticeCandidate {
   practiceItems: PracticeItem[];
 }
 
+interface RankedPracticeCandidate extends PracticeCandidate {
+  learnViewedButUnpracticed: boolean;
+  lastPracticeTimestamp: number;
+}
+
 async function readJsonFile<T>(filePath: string): Promise<T> {
   const raw = await fs.readFile(filePath, "utf-8");
   return JSON.parse(raw) as T;
@@ -142,27 +147,70 @@ function getActivePracticeItemsByKCId(
   return practiceItems.filter((item) => item.kcId === kcId && item.active);
 }
 
-function comparePracticeCandidates(a: PracticeCandidate, b: PracticeCandidate): number {
-  const aIsNew = a.learnerState.opportunities === 0;
-  const bIsNew = b.learnerState.opportunities === 0;
+function getLastPracticeTimestamp(lastPracticeAt: string | null): number {
+  if (!lastPracticeAt) {
+    return Number.NEGATIVE_INFINITY;
+  }
 
-  if (aIsNew && !bIsNew) return -1;
-  if (!aIsNew && bIsNew) return 1;
+  const timestamp = new Date(lastPracticeAt).getTime();
+  return Number.isNaN(timestamp) ? Number.NEGATIVE_INFINITY : timestamp;
+}
+
+function rankPracticeCandidate(candidate: PracticeCandidate): RankedPracticeCandidate {
+  return {
+    ...candidate,
+    learnViewedButUnpracticed:
+      candidate.learnerState.hasViewedLearn && candidate.learnerState.opportunities === 0,
+    lastPracticeTimestamp: getLastPracticeTimestamp(candidate.learnerState.lastPracticeAt),
+  };
+}
+
+function compareRankedPracticeCandidates(
+  a: RankedPracticeCandidate,
+  b: RankedPracticeCandidate
+): number {
+  if (a.learnViewedButUnpracticed && !b.learnViewedButUnpracticed) return -1;
+  if (!a.learnViewedButUnpracticed && b.learnViewedButUnpracticed) return 1;
 
   if (a.learnerState.masteryProbability !== b.learnerState.masteryProbability) {
     return a.learnerState.masteryProbability - b.learnerState.masteryProbability;
   }
 
-  return a.kc.englishTerm.localeCompare(b.kc.englishTerm);
+  if (a.lastPracticeTimestamp !== b.lastPracticeTimestamp) {
+    return a.lastPracticeTimestamp - b.lastPracticeTimestamp;
+  }
+
+  if (a.learnerState.opportunities !== b.learnerState.opportunities) {
+    return a.learnerState.opportunities - b.learnerState.opportunities;
+  }
+
+  return 0;
+}
+
+function selectRandomCandidate(
+  rankedCandidates: RankedPracticeCandidate[],
+  lastAttemptedKcId: string | null
+): RankedPracticeCandidate {
+  const topPoolSize = Math.min(rankedCandidates.length, 5);
+  const topCandidates = rankedCandidates.slice(0, topPoolSize);
+  const nonRepeatedCandidates = topCandidates.filter(
+    (candidate) => candidate.kc.id !== lastAttemptedKcId
+  );
+  const selectionPool =
+    nonRepeatedCandidates.length > 0 ? nonRepeatedCandidates : topCandidates;
+  const selectedIndex = Math.floor(Math.random() * selectionPool.length);
+
+  return selectionPool[selectedIndex];
 }
 
 
 export async function getNextPracticeItem(): Promise<GetNextPracticeItemResult> {
-  const [kcs, paramsList, practiceItems, learnerStateList] = await Promise.all([
+  const [kcs, paramsList, practiceItems, learnerStateList, attemptHistory] = await Promise.all([
     loadKnowledgeComponents(),
     loadBKTParameters(),
     loadPracticeItems(),
     loadLearnerState(),
+    loadAttemptHistory(),
   ]);
 
   const candidates: PracticeCandidate[] = kcs
@@ -185,11 +233,15 @@ export async function getNextPracticeItem(): Promise<GetNextPracticeItemResult> 
     throw new Error("No active practice candidates were found.");
   }
 
-  candidates.sort(comparePracticeCandidates);
+  const rankedCandidates = candidates
+    .map(rankPracticeCandidate)
+    .sort(compareRankedPracticeCandidates);
+  const lastAttemptedKcId =
+    attemptHistory.length > 0 ? attemptHistory[attemptHistory.length - 1].kcId : null;
 
-  const selected = candidates[0];
+  const selected = selectRandomCandidate(rankedCandidates, lastAttemptedKcId);
   const selectedPracticeItem = selected.practiceItems[0];
-  const reason = selected.learnerState.opportunities === 0 ? "new_term" : "low_mastery";
+  const reason = selected.learnViewedButUnpracticed ? "new_term" : "low_mastery";
 
   return {
     kc: selected.kc,

@@ -15,6 +15,18 @@ export interface GetKCByIdResponse {
 
 export type GetDashboardResponse = DashboardResponse;
 
+export interface LearnNextRequest {
+  preferredSystem?: MedicalSystem;
+  preferredTermType?: TermType;
+  excludeKcIds?: string[];
+}
+
+export interface LearnNextResponse {
+  kc: KnowledgeComponent;
+  learnerState: LearnerKCState;
+  reason: "unseen_term" | "guided_review";
+}
+
 export interface PracticeNextRequest {
   preferredSystem?: MedicalSystem;
   excludeKcIds?: string[];

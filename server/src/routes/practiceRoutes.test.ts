@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 
 import request from "supertest";
-import { afterAll, beforeAll, beforeEach, describe, expect, it } from "vitest";
+import { afterAll, beforeAll, beforeEach, describe, expect, it, vi } from "vitest";
 
 import app from "../app";
 
@@ -92,6 +92,41 @@ async function resetLearnerData(
   await writeJson(attemptHistoryPath, []);
 }
 
+async function resetLearnerDataAsPracticed(
+  overrides: Record<string, Partial<LearnerState>> = {}
+): Promise<void> {
+  const learnerState = await buildBaselineLearnerState();
+  const updatedLearnerState = learnerState.map((entry) => ({
+    ...entry,
+    masteryProbability: 0.9,
+    opportunities: 1,
+    correctCount: 0,
+    incorrectCount: 1,
+    lastPracticeAt: "2026-04-16T00:00:00.000Z",
+    ...overrides[entry.kcId],
+  }));
+
+  await writeJson(learnerStatePath, updatedLearnerState);
+  await writeJson(attemptHistoryPath, []);
+}
+
+async function setAttemptHistory(entries: Array<{ kcId: string }>): Promise<void> {
+  const attemptHistory = entries.map((entry, index) => ({
+    id: `attempt_test_${index}`,
+    kcId: entry.kcId,
+    practiceItemId: `item_test_${index}`,
+    userAnswer: "test",
+    normalizedAnswer: "test",
+    outcome: "incorrect" as const,
+    countedAsCorrectForBKT: false,
+    masteryBefore: 0.2,
+    masteryAfter: 0.1,
+    submittedAt: `2026-04-16T00:00:0${index}.000Z`,
+  }));
+
+  await writeJson(attemptHistoryPath, attemptHistory);
+}
+
 async function loadLearnerStateEntry(kcId: string): Promise<LearnerState> {
   const learnerState = await readJson<LearnerState[]>(learnerStatePath);
   const entry = learnerState.find((item) => item.kcId === kcId);
@@ -112,6 +147,7 @@ describe("practice routes", () => {
   });
 
   beforeEach(async () => {
+    vi.restoreAllMocks();
     await resetLearnerData();
   });
 
@@ -122,7 +158,9 @@ describe("practice routes", () => {
     ]);
   });
 
-  it("GET /api/practice/next prioritizes unseen terms before lower-mastery practiced terms", async () => {
+  it("GET /api/practice/next prioritizes terms viewed in Learn but not yet practiced", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+
     await resetLearnerData({
       kc_cardiovascular_anemia: {
         masteryProbability: 0.05,
@@ -130,6 +168,9 @@ describe("practice routes", () => {
         correctCount: 1,
         incorrectCount: 2,
         lastPracticeAt: "2026-04-16T00:00:00.000Z",
+      },
+      kc_cardiovascular_aneurysm: {
+        hasViewedLearn: true,
       },
       kc_cardiovascular_blood_vessels: {
         masteryProbability: 0.18,
@@ -154,9 +195,12 @@ describe("practice routes", () => {
     expect(response.body.kc.id).toBe("kc_cardiovascular_aneurysm");
     expect(response.body.practiceItem.id).toBe("item_cardiovascular_aneurysm_typed_1");
     expect(response.body.learnerState.opportunities).toBe(0);
+    expect(response.body.learnerState.hasViewedLearn).toBe(true);
   });
 
   it("GET /api/practice/next selects the lowest-mastery candidate when all available terms have been practiced", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+
     await resetLearnerData({
       kc_cardiovascular_anemia: {
         masteryProbability: 0.6,
@@ -202,6 +246,50 @@ describe("practice routes", () => {
     expect(response.body.kc.id).toBe("kc_cardiovascular_blood_vessels");
     expect(response.body.practiceItem.id).toBe("item_cardiovascular_blood_vessels_typed_1");
     expect(response.body.learnerState.masteryProbability).toBe(0.18);
+  });
+
+  it("GET /api/practice/next avoids immediately repeating the same KC when other strong candidates exist", async () => {
+    vi.spyOn(Math, "random").mockReturnValue(0);
+
+    await resetLearnerDataAsPracticed({
+      kc_cardiovascular_anemia: {
+        masteryProbability: 0.2,
+        correctCount: 1,
+        incorrectCount: 1,
+        lastPracticeAt: "2026-04-16T00:00:00.000Z",
+      },
+      kc_cardiovascular_aneurysm: {
+        masteryProbability: 0.21,
+        correctCount: 1,
+        incorrectCount: 1,
+        lastPracticeAt: "2026-04-15T00:00:00.000Z",
+      },
+      kc_cardiovascular_blood_vessels: {
+        masteryProbability: 0.22,
+        correctCount: 1,
+        incorrectCount: 1,
+        lastPracticeAt: "2026-04-14T00:00:00.000Z",
+      },
+      kc_skin_blood_vessels: {
+        masteryProbability: 0.23,
+        correctCount: 1,
+        incorrectCount: 1,
+        lastPracticeAt: "2026-04-13T00:00:00.000Z",
+      },
+      kc_urinary_bladder: {
+        masteryProbability: 0.24,
+        correctCount: 1,
+        incorrectCount: 1,
+        lastPracticeAt: "2026-04-12T00:00:00.000Z",
+      },
+    });
+    await setAttemptHistory([{ kcId: "kc_cardiovascular_anemia" }]);
+
+    const response = await request(app).get("/api/practice/next");
+
+    expect(response.status).toBe(200);
+    expect(response.body.kc.id).not.toBe("kc_cardiovascular_anemia");
+    expect(response.body.kc.id).toBe("kc_cardiovascular_aneurysm");
   });
 
   it("POST /api/practice/submit records a correct answer and updates learner progress", async () => {

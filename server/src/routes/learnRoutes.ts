@@ -1,8 +1,37 @@
 import { Router } from "express";
 
-import { markKCViewedInLearn } from "../services/learnService";
+import type { MedicalSystem, TermType } from "../../../shared/types/kc";
+import { getNextLearnTerm, markKCViewedInLearn } from "../services/learnService";
 
 const learnRoutes = Router();
+
+learnRoutes.get("/next", async (req, res) => {
+  try {
+    const preferredSystem =
+      typeof req.query.preferredSystem === "string" ? req.query.preferredSystem : undefined;
+    const preferredTermType =
+      typeof req.query.preferredTermType === "string" ? req.query.preferredTermType : undefined;
+    const excludeKcIds =
+      typeof req.query.excludeKcIds === "string" && req.query.excludeKcIds.length > 0
+        ? req.query.excludeKcIds.split(",").map((value) => value.trim()).filter(Boolean)
+        : undefined;
+
+    const result = await getNextLearnTerm({
+      preferredSystem: preferredSystem as MedicalSystem | undefined,
+      preferredTermType: preferredTermType as TermType | undefined,
+      excludeKcIds,
+    });
+
+    return res.status(200).json(result);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown error";
+
+    return res.status(500).json({
+      error: "Failed to get next Learn term.",
+      details: message,
+    });
+  }
+});
 
 learnRoutes.post("/view", async (req, res) => {
   try {
