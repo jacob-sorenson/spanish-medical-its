@@ -5,6 +5,8 @@ import type { PracticeItem } from "../../../shared/types/practice";
 export type {
   GetDashboardResponse,
   GetKCsResponse,
+  LearnNextRequest,
+  LearnNextResponse,
   TutorExplainRequest,
   TutorExplainResponse,
 } from "../../../shared/types/api";

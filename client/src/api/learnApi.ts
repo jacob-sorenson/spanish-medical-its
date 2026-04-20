@@ -1,4 +1,9 @@
-import type { LearnViewRequest, LearnViewResponse } from "../types/api";
+import type {
+  LearnNextRequest,
+  LearnNextResponse,
+  LearnViewRequest,
+  LearnViewResponse,
+} from "../types/api";
 
 async function parseJsonResponse<T>(response: Response): Promise<T> {
   if (response.ok) {
@@ -18,6 +23,27 @@ async function parseJsonResponse<T>(response: Response): Promise<T> {
 }
 
 export const learnApi = {
+  async getNextTerm(request: LearnNextRequest = {}): Promise<LearnNextResponse> {
+    const params = new URLSearchParams();
+
+    if (request.preferredSystem) {
+      params.set("preferredSystem", request.preferredSystem);
+    }
+
+    if (request.preferredTermType) {
+      params.set("preferredTermType", request.preferredTermType);
+    }
+
+    if (request.excludeKcIds && request.excludeKcIds.length > 0) {
+      params.set("excludeKcIds", request.excludeKcIds.join(","));
+    }
+
+    const query = params.toString();
+    const response = await fetch(`/api/learn/next${query ? `?${query}` : ""}`);
+
+    return parseJsonResponse<LearnNextResponse>(response);
+  },
+
   async markTermViewed(request: LearnViewRequest): Promise<LearnViewResponse> {
     const response = await fetch("/api/learn/view", {
       method: "POST",
