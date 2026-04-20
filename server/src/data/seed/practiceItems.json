@@ -1,5 +1,3 @@
-
-
 [
   {
     "id": "item_cardiovascular_anemia_typed_1",
@@ -217,6 +215,1070 @@
       "Kidney"
     ],
     "explanation": "'Vejiga' means 'Bladder' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_angina_typed_1",
+    "kcId": "kc_cardiovascular_angina",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Angina'?",
+    "correctAnswer": "Angina",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Angina'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_angina_mcq_1",
+    "kcId": "kc_cardiovascular_angina",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Angina'?",
+    "correctAnswer": "Angina",
+    "acceptableAnswers": [],
+    "choices": [
+      "Angina",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Angina' is 'Angina'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_angina_mcq_2",
+    "kcId": "kc_cardiovascular_angina",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Angina' mean in English?",
+    "correctAnswer": "Angina",
+    "acceptableAnswers": [],
+    "choices": [
+      "Angina",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Angina' means 'Angina' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_aorta_typed_1",
+    "kcId": "kc_cardiovascular_aorta",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Aorta'?",
+    "correctAnswer": "Aorta",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Aorta'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_aorta_mcq_1",
+    "kcId": "kc_cardiovascular_aorta",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Aorta'?",
+    "correctAnswer": "Aorta",
+    "acceptableAnswers": [],
+    "choices": [
+      "Aorta",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Aorta' is 'Aorta'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_aorta_mcq_2",
+    "kcId": "kc_cardiovascular_aorta",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Aorta' mean in English?",
+    "correctAnswer": "Aorta",
+    "acceptableAnswers": [],
+    "choices": [
+      "Aorta",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Aorta' means 'Aorta' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_arrythmia_typed_1",
+    "kcId": "kc_cardiovascular_arrythmia",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Arrythmia'?",
+    "correctAnswer": "Arritmia",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Arritmia'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_arrythmia_mcq_1",
+    "kcId": "kc_cardiovascular_arrythmia",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Arrythmia'?",
+    "correctAnswer": "Arritmia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Arritmia",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Arrythmia' is 'Arritmia'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_arrythmia_mcq_2",
+    "kcId": "kc_cardiovascular_arrythmia",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Arritmia' mean in English?",
+    "correctAnswer": "Arrythmia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Arrythmia",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Arritmia' means 'Arrythmia' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_blood_test_typed_1",
+    "kcId": "kc_cardiovascular_blood_test",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Blood Test'?",
+    "correctAnswer": "Análisis de sangre",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Análisis de sangre'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_blood_test_mcq_1",
+    "kcId": "kc_cardiovascular_blood_test",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Blood Test'?",
+    "correctAnswer": "Análisis de sangre",
+    "acceptableAnswers": [],
+    "choices": [
+      "Análisis de sangre",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Blood Test' is 'Análisis de sangre'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_blood_test_mcq_2",
+    "kcId": "kc_cardiovascular_blood_test",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Análisis de sangre' mean in English?",
+    "correctAnswer": "Blood Test",
+    "acceptableAnswers": [],
+    "choices": [
+      "Blood Test",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Análisis de sangre' means 'Blood Test' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_bone_marrow_typed_1",
+    "kcId": "kc_cardiovascular_bone_marrow",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Bone marrow'?",
+    "correctAnswer": "Medula ósea",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Medula ósea'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_bone_marrow_mcq_1",
+    "kcId": "kc_cardiovascular_bone_marrow",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Bone marrow'?",
+    "correctAnswer": "Medula ósea",
+    "acceptableAnswers": [],
+    "choices": [
+      "Medula ósea",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Bone marrow' is 'Medula ósea'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_bone_marrow_mcq_2",
+    "kcId": "kc_cardiovascular_bone_marrow",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Medula ósea' mean in English?",
+    "correctAnswer": "Bone marrow",
+    "acceptableAnswers": [],
+    "choices": [
+      "Bone marrow",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Medula ósea' means 'Bone marrow' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_capillaries_typed_1",
+    "kcId": "kc_cardiovascular_capillaries",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Capillaries'?",
+    "correctAnswer": "Capilares",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Capilares'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_capillaries_mcq_1",
+    "kcId": "kc_cardiovascular_capillaries",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Capillaries'?",
+    "correctAnswer": "Capilares",
+    "acceptableAnswers": [],
+    "choices": [
+      "Capilares",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Capillaries' is 'Capilares'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_capillaries_mcq_2",
+    "kcId": "kc_cardiovascular_capillaries",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Capilares' mean in English?",
+    "correctAnswer": "Capillaries",
+    "acceptableAnswers": [],
+    "choices": [
+      "Capillaries",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Capilares' means 'Capillaries' in English.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_cholesterol_typed_1",
+    "kcId": "kc_cardiovascular_cholesterol",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Cholesterol'?",
+    "correctAnswer": "Colesterol",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Colesterol'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_cholesterol_mcq_1",
+    "kcId": "kc_cardiovascular_cholesterol",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Cholesterol'?",
+    "correctAnswer": "Colesterol",
+    "acceptableAnswers": [],
+    "choices": [
+      "Colesterol",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Cholesterol' is 'Colesterol'.",
+    "active": true
+  },
+  {
+    "id": "item_cardiovascular_cholesterol_mcq_2",
+    "kcId": "kc_cardiovascular_cholesterol",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Colesterol' mean in English?",
+    "correctAnswer": "Cholesterol",
+    "acceptableAnswers": [],
+    "choices": [
+      "Cholesterol",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Colesterol' means 'Cholesterol' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_acne_typed_1",
+    "kcId": "kc_skin_acne",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Acne'?",
+    "correctAnswer": "Acné",
+    "acceptableAnswers": [
+      "Granitos (Argentina)",
+      "granos"
+    ],
+    "explanation": "The official Spanish medical term is 'Acné'. Acceptable alternate answers include 'Granitos (Argentina)', 'granos'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_acne_mcq_1",
+    "kcId": "kc_skin_acne",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Acne'?",
+    "correctAnswer": "Acné",
+    "acceptableAnswers": [
+      "Granitos (Argentina)",
+      "granos"
+    ],
+    "choices": [
+      "Acné",
+      "Granitos (Argentina)",
+      "granos",
+      "Anemia"
+    ],
+    "explanation": "The correct Spanish medical term for 'Acne' is 'Acné'. Acceptable alternate answers include 'Granitos (Argentina)', 'granos'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_acne_mcq_2",
+    "kcId": "kc_skin_acne",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Acné' mean in English?",
+    "correctAnswer": "Acne",
+    "acceptableAnswers": [],
+    "choices": [
+      "Acne",
+      "Anemia",
+      "Aneurysm",
+      "Angina"
+    ],
+    "explanation": "'Acné' means 'Acne' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_athlete_s_foot_typed_1",
+    "kcId": "kc_skin_athlete_s_foot",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Athlete’s foot'?",
+    "correctAnswer": "Pie de atleta",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Pie de atleta'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_athlete_s_foot_mcq_1",
+    "kcId": "kc_skin_athlete_s_foot",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Athlete’s foot'?",
+    "correctAnswer": "Pie de atleta",
+    "acceptableAnswers": [],
+    "choices": [
+      "Pie de atleta",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Athlete’s foot' is 'Pie de atleta'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_athlete_s_foot_mcq_2",
+    "kcId": "kc_skin_athlete_s_foot",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Pie de atleta' mean in English?",
+    "correctAnswer": "Athlete’s foot",
+    "acceptableAnswers": [],
+    "choices": [
+      "Athlete’s foot",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Pie de atleta' means 'Athlete’s foot' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_basal_cell_cancer_typed_1",
+    "kcId": "kc_skin_basal_cell_cancer",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Basal cell cancer'?",
+    "correctAnswer": "Cáncer de células basales",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Cáncer de células basales'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_basal_cell_cancer_mcq_1",
+    "kcId": "kc_skin_basal_cell_cancer",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Basal cell cancer'?",
+    "correctAnswer": "Cáncer de células basales",
+    "acceptableAnswers": [],
+    "choices": [
+      "Cáncer de células basales",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Basal cell cancer' is 'Cáncer de células basales'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_basal_cell_cancer_mcq_2",
+    "kcId": "kc_skin_basal_cell_cancer",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Cáncer de células basales' mean in English?",
+    "correctAnswer": "Basal cell cancer",
+    "acceptableAnswers": [],
+    "choices": [
+      "Basal cell cancer",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Cáncer de células basales' means 'Basal cell cancer' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_biopsy_typed_1",
+    "kcId": "kc_skin_biopsy",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Biopsy'?",
+    "correctAnswer": "Biopsia",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Biopsia'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_biopsy_mcq_1",
+    "kcId": "kc_skin_biopsy",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Biopsy'?",
+    "correctAnswer": "Biopsia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Biopsia",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Biopsy' is 'Biopsia'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_biopsy_mcq_2",
+    "kcId": "kc_skin_biopsy",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Biopsia' mean in English?",
+    "correctAnswer": "Biopsy",
+    "acceptableAnswers": [],
+    "choices": [
+      "Biopsy",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Biopsia' means 'Biopsy' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_birthmarks_typed_1",
+    "kcId": "kc_skin_birthmarks",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Birthmarks'?",
+    "correctAnswer": "Marca de nacimiento",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Marca de nacimiento'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_birthmarks_mcq_1",
+    "kcId": "kc_skin_birthmarks",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Birthmarks'?",
+    "correctAnswer": "Marca de nacimiento",
+    "acceptableAnswers": [],
+    "choices": [
+      "Marca de nacimiento",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Birthmarks' is 'Marca de nacimiento'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_birthmarks_mcq_2",
+    "kcId": "kc_skin_birthmarks",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Marca de nacimiento' mean in English?",
+    "correctAnswer": "Birthmarks",
+    "acceptableAnswers": [],
+    "choices": [
+      "Birthmarks",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Marca de nacimiento' means 'Birthmarks' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_blistering_typed_1",
+    "kcId": "kc_skin_blistering",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Blistering'?",
+    "correctAnswer": "Ampollas",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Ampollas'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_blistering_mcq_1",
+    "kcId": "kc_skin_blistering",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Blistering'?",
+    "correctAnswer": "Ampollas",
+    "acceptableAnswers": [],
+    "choices": [
+      "Ampollas",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Blistering' is 'Ampollas'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_blistering_mcq_2",
+    "kcId": "kc_skin_blistering",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Ampollas' mean in English?",
+    "correctAnswer": "Blistering",
+    "acceptableAnswers": [],
+    "choices": [
+      "Blistering",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Ampollas' means 'Blistering' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_burns_typed_1",
+    "kcId": "kc_skin_burns",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Burns'?",
+    "correctAnswer": "Quemaduras",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Quemaduras'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_burns_mcq_1",
+    "kcId": "kc_skin_burns",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Burns'?",
+    "correctAnswer": "Quemaduras",
+    "acceptableAnswers": [],
+    "choices": [
+      "Quemaduras",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Burns' is 'Quemaduras'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_burns_mcq_2",
+    "kcId": "kc_skin_burns",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Quemaduras' mean in English?",
+    "correctAnswer": "Burns",
+    "acceptableAnswers": [],
+    "choices": [
+      "Burns",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Quemaduras' means 'Burns' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_calluses_typed_1",
+    "kcId": "kc_skin_calluses",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Calluses'?",
+    "correctAnswer": "Callos",
+    "acceptableAnswers": [
+      "Durezas"
+    ],
+    "explanation": "The official Spanish medical term is 'Callos'. Acceptable alternate answers include 'Durezas'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_calluses_mcq_1",
+    "kcId": "kc_skin_calluses",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Calluses'?",
+    "correctAnswer": "Callos",
+    "acceptableAnswers": [
+      "Durezas"
+    ],
+    "choices": [
+      "Callos",
+      "Durezas",
+      "Acné",
+      "Anemia"
+    ],
+    "explanation": "The correct Spanish medical term for 'Calluses' is 'Callos'. Acceptable alternate answers include 'Durezas'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_calluses_mcq_2",
+    "kcId": "kc_skin_calluses",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Callos' mean in English?",
+    "correctAnswer": "Calluses",
+    "acceptableAnswers": [],
+    "choices": [
+      "Calluses",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Callos' means 'Calluses' in English.",
+    "active": true
+  },
+  {
+    "id": "item_skin_chickenpox_typed_1",
+    "kcId": "kc_skin_chickenpox",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Chickenpox'?",
+    "correctAnswer": "Varicela",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Varicela'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_chickenpox_mcq_1",
+    "kcId": "kc_skin_chickenpox",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Chickenpox'?",
+    "correctAnswer": "Varicela",
+    "acceptableAnswers": [],
+    "choices": [
+      "Varicela",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Chickenpox' is 'Varicela'.",
+    "active": true
+  },
+  {
+    "id": "item_skin_chickenpox_mcq_2",
+    "kcId": "kc_skin_chickenpox",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Varicela' mean in English?",
+    "correctAnswer": "Chickenpox",
+    "acceptableAnswers": [],
+    "choices": [
+      "Chickenpox",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Varicela' means 'Chickenpox' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_benign_prostatic_hyperplasia_typed_1",
+    "kcId": "kc_urinary_benign_prostatic_hyperplasia",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Benign prostatic hyperplasia'?",
+    "correctAnswer": "Hiperplasia benigna de la próstata",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Hiperplasia benigna de la próstata'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_benign_prostatic_hyperplasia_mcq_1",
+    "kcId": "kc_urinary_benign_prostatic_hyperplasia",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Benign prostatic hyperplasia'?",
+    "correctAnswer": "Hiperplasia benigna de la próstata",
+    "acceptableAnswers": [],
+    "choices": [
+      "Hiperplasia benigna de la próstata",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Benign prostatic hyperplasia' is 'Hiperplasia benigna de la próstata'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_benign_prostatic_hyperplasia_mcq_2",
+    "kcId": "kc_urinary_benign_prostatic_hyperplasia",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Hiperplasia benigna de la próstata' mean in English?",
+    "correctAnswer": "Benign prostatic hyperplasia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Benign prostatic hyperplasia",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Hiperplasia benigna de la próstata' means 'Benign prostatic hyperplasia' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_bladder_training_typed_1",
+    "kcId": "kc_urinary_bladder_training",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Bladder training'?",
+    "correctAnswer": "Entrenamiento de la vejiga",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Entrenamiento de la vejiga'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_bladder_training_mcq_1",
+    "kcId": "kc_urinary_bladder_training",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Bladder training'?",
+    "correctAnswer": "Entrenamiento de la vejiga",
+    "acceptableAnswers": [],
+    "choices": [
+      "Entrenamiento de la vejiga",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Bladder training' is 'Entrenamiento de la vejiga'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_bladder_training_mcq_2",
+    "kcId": "kc_urinary_bladder_training",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Entrenamiento de la vejiga' mean in English?",
+    "correctAnswer": "Bladder training",
+    "acceptableAnswers": [],
+    "choices": [
+      "Bladder training",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Entrenamiento de la vejiga' means 'Bladder training' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_blood_in_the_urine_typed_1",
+    "kcId": "kc_urinary_blood_in_the_urine",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Blood in the urine'?",
+    "correctAnswer": "hematuria",
+    "acceptableAnswers": [
+      "Sangre en la orina"
+    ],
+    "explanation": "The official Spanish medical term is 'hematuria'. Acceptable alternate answers include 'Sangre en la orina'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_blood_in_the_urine_mcq_1",
+    "kcId": "kc_urinary_blood_in_the_urine",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Blood in the urine'?",
+    "correctAnswer": "hematuria",
+    "acceptableAnswers": [
+      "Sangre en la orina"
+    ],
+    "choices": [
+      "hematuria",
+      "Sangre en la orina",
+      "Acné",
+      "Anemia"
+    ],
+    "explanation": "The correct Spanish medical term for 'Blood in the urine' is 'hematuria'. Acceptable alternate answers include 'Sangre en la orina'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_blood_in_the_urine_mcq_2",
+    "kcId": "kc_urinary_blood_in_the_urine",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'hematuria' mean in English?",
+    "correctAnswer": "Blood in the urine",
+    "acceptableAnswers": [],
+    "choices": [
+      "Blood in the urine",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'hematuria' means 'Blood in the urine' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_burning_when_you_urinate_typed_1",
+    "kcId": "kc_urinary_burning_when_you_urinate",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Burning when you urinate'?",
+    "correctAnswer": "Ardor al orinar",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Ardor al orinar'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_burning_when_you_urinate_mcq_1",
+    "kcId": "kc_urinary_burning_when_you_urinate",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Burning when you urinate'?",
+    "correctAnswer": "Ardor al orinar",
+    "acceptableAnswers": [],
+    "choices": [
+      "Ardor al orinar",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Burning when you urinate' is 'Ardor al orinar'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_burning_when_you_urinate_mcq_2",
+    "kcId": "kc_urinary_burning_when_you_urinate",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Ardor al orinar' mean in English?",
+    "correctAnswer": "Burning when you urinate",
+    "acceptableAnswers": [],
+    "choices": [
+      "Burning when you urinate",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Ardor al orinar' means 'Burning when you urinate' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_cystoscope_typed_1",
+    "kcId": "kc_urinary_cystoscope",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Cystoscope'?",
+    "correctAnswer": "Cistoscopio",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Cistoscopio'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_cystoscope_mcq_1",
+    "kcId": "kc_urinary_cystoscope",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Cystoscope'?",
+    "correctAnswer": "Cistoscopio",
+    "acceptableAnswers": [],
+    "choices": [
+      "Cistoscopio",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Cystoscope' is 'Cistoscopio'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_cystoscope_mcq_2",
+    "kcId": "kc_urinary_cystoscope",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Cistoscopio' mean in English?",
+    "correctAnswer": "Cystoscope",
+    "acceptableAnswers": [],
+    "choices": [
+      "Cystoscope",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Cistoscopio' means 'Cystoscope' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_cystoscopy_typed_1",
+    "kcId": "kc_urinary_cystoscopy",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Cystoscopy'?",
+    "correctAnswer": "Cistoscopia",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Cistoscopia'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_cystoscopy_mcq_1",
+    "kcId": "kc_urinary_cystoscopy",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Cystoscopy'?",
+    "correctAnswer": "Cistoscopia",
+    "acceptableAnswers": [],
+    "choices": [
+      "Cistoscopia",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Cystoscopy' is 'Cistoscopia'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_cystoscopy_mcq_2",
+    "kcId": "kc_urinary_cystoscopy",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Cistoscopia' mean in English?",
+    "correctAnswer": "Cystoscopy",
+    "acceptableAnswers": [],
+    "choices": [
+      "Cystoscopy",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Cistoscopia' means 'Cystoscopy' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_distending_the_bladder_typed_1",
+    "kcId": "kc_urinary_distending_the_bladder",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Distending the bladder'?",
+    "correctAnswer": "Distensión de la vejiga",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Distensión de la vejiga'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_distending_the_bladder_mcq_1",
+    "kcId": "kc_urinary_distending_the_bladder",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Distending the bladder'?",
+    "correctAnswer": "Distensión de la vejiga",
+    "acceptableAnswers": [],
+    "choices": [
+      "Distensión de la vejiga",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Distending the bladder' is 'Distensión de la vejiga'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_distending_the_bladder_mcq_2",
+    "kcId": "kc_urinary_distending_the_bladder",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Distensión de la vejiga' mean in English?",
+    "correctAnswer": "Distending the bladder",
+    "acceptableAnswers": [],
+    "choices": [
+      "Distending the bladder",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Distensión de la vejiga' means 'Distending the bladder' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_electrical_nerve_stimulation_typed_1",
+    "kcId": "kc_urinary_electrical_nerve_stimulation",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Electrical nerve stimulation'?",
+    "correctAnswer": "Estimulación eléctrica del nervio",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Estimulación eléctrica del nervio'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_electrical_nerve_stimulation_mcq_1",
+    "kcId": "kc_urinary_electrical_nerve_stimulation",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Electrical nerve stimulation'?",
+    "correctAnswer": "Estimulación eléctrica del nervio",
+    "acceptableAnswers": [],
+    "choices": [
+      "Estimulación eléctrica del nervio",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Electrical nerve stimulation' is 'Estimulación eléctrica del nervio'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_electrical_nerve_stimulation_mcq_2",
+    "kcId": "kc_urinary_electrical_nerve_stimulation",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Estimulación eléctrica del nervio' mean in English?",
+    "correctAnswer": "Electrical nerve stimulation",
+    "acceptableAnswers": [],
+    "choices": [
+      "Electrical nerve stimulation",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Estimulación eléctrica del nervio' means 'Electrical nerve stimulation' in English.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_hemodialysis_typed_1",
+    "kcId": "kc_urinary_hemodialysis",
+    "itemType": "typed_en_to_es",
+    "prompt": "What is the official Spanish medical term for 'Hemodialysis'?",
+    "correctAnswer": "Hemodiálisis",
+    "acceptableAnswers": [],
+    "explanation": "The official Spanish medical term is 'Hemodiálisis'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_hemodialysis_mcq_1",
+    "kcId": "kc_urinary_hemodialysis",
+    "itemType": "mcq_en_to_es",
+    "prompt": "Which is the correct Spanish medical term for 'Hemodialysis'?",
+    "correctAnswer": "Hemodiálisis",
+    "acceptableAnswers": [],
+    "choices": [
+      "Hemodiálisis",
+      "Acné",
+      "Anemia",
+      "Aneurisma"
+    ],
+    "explanation": "The correct Spanish medical term for 'Hemodialysis' is 'Hemodiálisis'.",
+    "active": true
+  },
+  {
+    "id": "item_urinary_hemodialysis_mcq_2",
+    "kcId": "kc_urinary_hemodialysis",
+    "itemType": "mcq_es_to_en",
+    "prompt": "What does 'Hemodiálisis' mean in English?",
+    "correctAnswer": "Hemodialysis",
+    "acceptableAnswers": [],
+    "choices": [
+      "Hemodialysis",
+      "Acne",
+      "Anemia",
+      "Aneurysm"
+    ],
+    "explanation": "'Hemodiálisis' means 'Hemodialysis' in English.",
     "active": true
   }
 ]
