@@ -11,6 +11,12 @@ export type {
 
 export type DashboardData = import("../../../shared/types/dashboard").DashboardResponse;
 
+export interface LearnViewRequest {
+  kcId: string;
+}
+
+export type LearnViewResponse = LearnerKCState;
+
 export type PracticeSelectionReason = "new_term" | "low_mastery";
 
 export interface PracticeNextResponse {

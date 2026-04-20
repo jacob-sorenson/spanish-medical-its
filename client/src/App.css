@@ -202,6 +202,10 @@
   gap: 1rem;
 }
 
+.learn-grid-panel {
+  align-content: start;
+}
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
@@ -238,8 +242,23 @@
 .page-header h1,
 .section-heading h2,
 .summary-card h3,
-.feedback-panel h3 {
+.feedback-panel h3,
+.learn-detail-panel h2,
+.learn-detail-block h3 {
   margin: 0;
+}
+
+.term-card-button {
+  padding: 0;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.term-card-button.selected {
+  border-color: rgba(86, 154, 255, 0.38);
+  box-shadow: 0 24px 54px rgba(86, 154, 255, 0.14);
 }
 
 .term-answer {
@@ -265,6 +284,50 @@
 .term-meta dd {
   margin: 0.15rem 0 0;
   font-weight: 700;
+}
+
+.learn-detail-panel {
+  display: grid;
+  align-content: start;
+  gap: 1.25rem;
+}
+
+.learn-placeholder-panel {
+  min-height: 22rem;
+}
+
+.learn-helper-copy {
+  max-width: none;
+  margin: 0;
+}
+
+.learn-detail-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.learn-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.learn-detail-block {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--feedback-note-surface);
+}
+
+.muted-copy {
+  margin-top: 0.55rem;
+  color: var(--text-soft);
+}
+
+.learn-inline-error {
+  min-height: auto;
+  padding: 1rem 1.2rem;
 }
 
 .practice-context {
@@ -542,6 +605,10 @@
   }
 
   .term-meta {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .learn-detail-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 

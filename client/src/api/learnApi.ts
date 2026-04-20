@@ -1,4 +1,4 @@
-import type { GetKCsResponse } from "../types/api";
+import type { LearnViewRequest, LearnViewResponse } from "../types/api";
 
 async function parseJsonResponse<T>(response: Response): Promise<T> {
   if (response.ok) {
@@ -17,9 +17,16 @@ async function parseJsonResponse<T>(response: Response): Promise<T> {
   throw new Error(message);
 }
 
-export const kcApi = {
-  async getKCs(): Promise<GetKCsResponse> {
-    const response = await fetch("/api/kcs");
-    return parseJsonResponse<GetKCsResponse>(response);
+export const learnApi = {
+  async markTermViewed(request: LearnViewRequest): Promise<LearnViewResponse> {
+    const response = await fetch("/api/learn/view", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(request),
+    });
+
+    return parseJsonResponse<LearnViewResponse>(response);
   },
 };
