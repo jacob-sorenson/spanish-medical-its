@@ -607,6 +607,26 @@
   color: var(--text-soft);
 }
 
+.table-sort-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.table-sort-indicator {
+  font-size: 0.68rem;
+  opacity: 0.8;
+}
+
 .stat-card {
   display: grid;
   gap: 0.35rem;
