@@ -5,7 +5,7 @@ import path from "path";
 
 import type { AttemptRecord, BKTParameters, LearnerKCState } from "../../../shared/types/bkt";
 import type { KnowledgeComponent } from "../../../shared/types/kc";
-import type { PracticeItem } from "../../../shared/types/practice";
+import type { PracticeItem, PracticeItemType } from "../../../shared/types/practice";
 import { applyPracticeResultToLearnerState } from "./bktService";
 import { scoreResponse } from "./scoringService";
 
@@ -54,6 +54,12 @@ interface RankedPracticeCandidate extends PracticeCandidate {
   learnViewedButUnpracticed: boolean;
   lastPracticeTimestamp: number;
 }
+
+const ELIGIBLE_PRACTICE_ITEM_TYPES = new Set<PracticeItemType>([
+  "typed_en_to_es",
+  "typed_es_to_en",
+  "official_vs_alternate",
+]);
 
 async function readJsonFile<T>(filePath: string): Promise<T> {
   const raw = await fs.readFile(filePath, "utf-8");
@@ -144,7 +150,12 @@ function getActivePracticeItemsByKCId(
   practiceItems: PracticeItem[],
   kcId: string
 ): PracticeItem[] {
-  return practiceItems.filter((item) => item.kcId === kcId && item.active);
+  return practiceItems.filter(
+    (item) =>
+      item.kcId === kcId &&
+      item.active &&
+      ELIGIBLE_PRACTICE_ITEM_TYPES.has(item.itemType)
+  );
 }
 
 function getLastPracticeTimestamp(lastPracticeAt: string | null): number {
@@ -203,6 +214,11 @@ function selectRandomCandidate(
   return selectionPool[selectedIndex];
 }
 
+function selectRandomPracticeItem(practiceItems: PracticeItem[]): PracticeItem {
+  const selectedIndex = Math.floor(Math.random() * practiceItems.length);
+  return practiceItems[selectedIndex];
+}
+
 
 export async function getNextPracticeItem(): Promise<GetNextPracticeItemResult> {
   const [kcs, paramsList, practiceItems, learnerStateList, attemptHistory] = await Promise.all([
@@ -240,7 +256,7 @@ export async function getNextPracticeItem(): Promise<GetNextPracticeItemResult> 
     attemptHistory.length > 0 ? attemptHistory[attemptHistory.length - 1].kcId : null;
 
   const selected = selectRandomCandidate(rankedCandidates, lastAttemptedKcId);
-  const selectedPracticeItem = selected.practiceItems[0];
+  const selectedPracticeItem = selectRandomPracticeItem(selected.practiceItems);
   const reason = selected.learnViewedButUnpracticed ? "new_term" : "low_mastery";
 
   return {

@@ -1,5 +1,7 @@
 # Spanish ITS
 
+Spanish ITS is an intelligent tutoring system for learning Spanish medical terminology. It combines Learn study views, adaptive Practice prompts, and a Dashboard summary so a learner can study terms, answer recall questions, and track progress over time using a lightweight JSON-backed backend.
+
 This project is split into two parts:
 
 - `client/` — the React + TypeScript frontend
@@ -14,8 +16,27 @@ The backend is the API server that the frontend talks to.
 spanish-its/
 ├── client/
 ├── server/
+├── resetLearningProgress.js
 └── README.md
 ```
+
+## Current Features
+
+- Learn page for studying medical terms as flashcards
+- Guided Learn recommendations that prioritize unseen terms first, then weaker or less-reviewed terms
+- Practice flow with active typed recall items
+  - English -> Spanish
+  - Spanish -> English
+- Learner progress tracking in JSON files
+- Dashboard summaries by mastery band and medical system
+- Reset script for restoring learner progress from seed files
+
+## Requirements
+
+- Node.js
+- npm
+
+If you already have a recent Node.js version that supports the current React, Vite, and TypeScript tooling, the project should run normally.
 
 ## What Each Server Does
 
@@ -51,10 +72,15 @@ In this project, the backend runs on:
 http://localhost:3001
 ```
 
-Example API route:
+Current backend routes include:
 
 ```text
-GET /api/hello
+GET  /api/kcs
+GET  /api/dashboard
+GET  /api/learn/next
+POST /api/learn/view
+GET  /api/practice/next
+POST /api/practice/submit
 ```
 
 ## How the Two Servers Work Together
@@ -68,13 +94,13 @@ During development:
 Because of the Vite proxy, frontend code can use requests like:
 
 ```ts
-fetch("/api/hello")
+fetch("/api/dashboard")
 ```
 
 instead of:
 
 ```ts
-fetch("http://localhost:3001/api/hello")
+fetch("http://localhost:3001/api/dashboard")
 ```
 
 This keeps frontend code cleaner and avoids common development CORS issues.
@@ -136,6 +162,58 @@ This starts the Vite React frontend.
 3. Open the frontend URL shown in the terminal
 4. Use the React app in the browser
 5. The frontend will call the backend through `/api` routes
+
+## How the App Works
+
+### Learn
+
+The Learn page shows one knowledge component at a time like a flashcard. The backend tracks whether a term has been viewed, when it was first and last viewed, and how many times it has been seen.
+
+### Practice
+
+The Practice flow selects a knowledge component adaptively based on learner state. It currently uses active typed recall items and avoids inactive multiple-choice items.
+
+### Dashboard
+
+The Dashboard summarizes total progress, practiced terms, mastery bands, and category-level performance by medical system.
+
+## Data Files
+
+This project currently uses JSON files instead of a database.
+
+### Seed data
+
+Main seed content lives in:
+
+```text
+server/src/data/seed/
+```
+
+Examples:
+- `knowledgeComponents.json`
+- `practiceItems.json`
+- `bktParameters.json`
+
+### Live learner data
+
+Learner progress lives in:
+
+```text
+server/src/data/learner/
+```
+
+Examples:
+- `learnerState.json`
+- `attemptHistory.json`
+
+### Learner reset seeds
+
+The reset script restores live learner progress from:
+
+```text
+server/src/data/learner/learnerState.seed.json
+server/src/data/learner/attemptHistory.seed.json
+```
 
 ## Typical Development Workflow
 
@@ -203,6 +281,8 @@ npm test
 These integration tests use Vitest and Supertest to verify:
 - `GET /api/practice/next`
 - `POST /api/practice/submit`
+- `GET /api/learn/next`
+- `POST /api/learn/view`
 
 They use the current JSON-backed storage during the test run and restore the learner data files after the tests finish.
 
@@ -243,10 +323,42 @@ If you changed `vite.config.ts`, restart the frontend dev server.
 
 If port `5173` or `3001` is already being used, stop the other process using that port and restart the correct server.
 
+## API Overview
+
+### `GET /api/kcs`
+
+Returns the available knowledge components used by the app.
+
+### `GET /api/dashboard`
+
+Returns the dashboard summary, category summaries, and KC rows for learner progress.
+
+### `GET /api/learn/next`
+
+Returns the next recommended term for the Learn page, prioritizing unseen terms first and then guided review terms.
+
+### `POST /api/learn/view`
+
+Marks a KC as viewed in Learn and updates:
+- `hasViewedLearn`
+- `firstViewedAt`
+- `lastViewedAt`
+- `learnViewCount`
+
+### `GET /api/practice/next`
+
+Returns the next recommended practice KC and one eligible active practice item.
+
+### `POST /api/practice/submit`
+
+Scores the learner response, updates learner state, appends attempt history, and returns the updated result payload.
+
 ## Summary
 
+- Spanish ITS is an adaptive tutor for Spanish medical terminology
 - `client/` = React frontend
 - `server/` = Express backend
+- JSON files currently store seed content and learner progress
 - run both servers during development
 - open the frontend in the browser
 - frontend API calls go through the Vite proxy to the backend

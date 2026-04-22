@@ -1,5 +1,6 @@
 export type PracticeItemType =
   | "typed_en_to_es"
+  | "typed_es_to_en"
   | "mcq_en_to_es"
   | "mcq_es_to_en"
   | "official_vs_alternate";
